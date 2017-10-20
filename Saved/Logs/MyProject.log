@@ -1,4 +1,4 @@
-﻿Log file open, 10/19/17 19:31:12
+﻿Log file open, 10/19/17 20:07:18
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MyProject
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(979532885) SRandInit(979532885).
+LogInit: Display: RandInit(-2122864716) SRandInit(-2122864716).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.168668
+LogStats: Stats thread started at 0.170708
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -108,294 +108,992 @@ LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line:  -game
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.10.20-00.31.13:397][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.20-00.31.13:397][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.10.20-00.31.13:427][  0]LogInit: Computer: LAWRENCE-LAPTOP
-[2017.10.20-00.31.13:427][  0]LogInit: User: Lawrence
-[2017.10.20-00.31.13:427][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.10.20-00.31.13:427][  0]LogInit: High frequency timer resolution =2.533210 MHz
-[2017.10.20-00.31.13:428][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.10.20-00.31.13:428][  0]LogMemory: Platform Memory Stats for Windows
-[2017.10.20-00.31.13:428][  0]LogMemory: Process Physical Memory: 277.50 MB used, 277.50 MB peak
-[2017.10.20-00.31.13:428][  0]LogMemory: Process Virtual Memory: 274.28 MB used, 274.28 MB peak
-[2017.10.20-00.31.13:428][  0]LogMemory: Physical Memory: 4724.00 MB used,  11583.02 MB free, 16307.03 MB total
-[2017.10.20-00.31.13:428][  0]LogMemory: Virtual Memory: 668.79 MB used,  11583.02 MB free, 134217728.00 MB total
-[2017.10.20-00.31.13:610][  0]LogInit: Using OS detected language (en-US).
-[2017.10.20-00.31.13:610][  0]LogInit: Using OS detected locale (en-US).
-[2017.10.20-00.31.13:613][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.10.20-00.31.14:070][  0]LogD3D11RHI: D3D11 adapters:
-[2017.10.20-00.31.14:140][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
-[2017.10.20-00.31.14:140][  0]LogD3D11RHI:       3040/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.10.20-00.31.14:145][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.10.20-00.31.14:145][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.10.20-00.31.14:147][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.10.20-00.31.14:147][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.10.20-00.31.14:147][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.10.20-00.31.14:152][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.10.20-00.31.14:152][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
-[2017.10.20-00.31.14:152][  0]LogWindows: EnumDisplayDevices:
-[2017.10.20-00.31.14:152][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2017.10.20-00.31.14:152][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.10.20-00.31.14:153][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.10.20-00.31.14:153][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.10.20-00.31.14:153][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
-[2017.10.20-00.31.14:153][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.10.20-00.31.14:153][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.10.20-00.31.14:153][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.10.20-00.31.14:188][  0]LogD3D11RHI: Async texture creation enabled
-[2017.10.20-00.31.14:199][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.10.20-00.31.14:200][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Intermediate/Shaders/WorkingDirectory/9912/).
-[2017.10.20-00.31.14:200][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Lawrence/AppData/Local/Temp/UnrealShaderWorkingDir/F42FB9204C4BDDD1661C398C2414EAC8/'.
-[2017.10.20-00.31.14:200][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.10.20-00.31.15:488][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.10.20-00.31.15:659][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.10.20-00.31.15:876][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.10.20-00.31.16:064][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.10.20-00.31.16:064][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.10.20-00.31.16:771][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.10.20-00.31.17:077][  0]LogDerivedDataCache: Loaded boot cache 0.31s 93MB C:/Users/Lawrence/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.20-00.31.17:077][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Lawrence/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.10.20-00.31.17:077][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.10.20-00.31.17:077][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.10.20-00.31.17:077][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.10.20-00.31.17:078][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.10.20-00.31.17:145][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.10.20-00.31.17:160][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Lawrence/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.10.20-00.31.17:201][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.10.20-00.31.17:202][  0]LogSlate: Using Freetype 2.6.0
-[2017.10.20-00.31.17:205][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.20-00.31.17:205][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.20-00.31.17:897][  0]LogAssetRegistry: FAssetRegistry took 0.0173 seconds to start up
-[2017.10.20-00.31.18:109][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.105850 seconds
-[2017.10.20-00.31.18:238][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.20-00.31.19:244][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.10.20-00.31.19:324][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.10.20-00.31.19:324][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.10.20-00.31.19:324][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.10.20-00.31.19:324][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.10.20-00.31.19:324][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.10.20-00.31.19:325][  0]LogContentStreaming: Texture pool size is 1000.00 MB
-[2017.10.20-00.31.19:849][  0]LogNetVersion: MyProject , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3113362612)
-[2017.10.20-00.31.20:032][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.10.20-00.31.22:073][  0]LogMoviePlayer: Initializing movie player
-[2017.10.20-00.31.22:539][  0]LogCollectionManager: Loaded 0 collections in 0.001714 seconds
-[2017.10.20-00.31.22:645][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lawrence/Documents/Flare_BlitzU 4.17/Saved/Collections/' took 0.01s
-[2017.10.20-00.31.22:645][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Developers/Lawrence/Collections/' took 0.01s
-[2017.10.20-00.31.22:645][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Collections/' took 0.01s
-[2017.10.20-00.31.22:645][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.10.20-00.31.22:645][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000152 seconds (updated 0 objects)
-[2017.10.20-00.31.24:409][  0]SourceControl: Source control is disabled
-[2017.10.20-00.31.24:409][  0]SourceControl: Source control is disabled
-[2017.10.20-00.31.24:545][  0]SourceControl: Source control is disabled
-[2017.10.20-00.31.24:880][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.10.20-00.31.25:647][  0]LogOcInput: OculusInput pre-init called
-[2017.10.20-00.31.25:755][  0]LogUObjectArray: 38661 objects as part of root set at end of initial load.
-[2017.10.20-00.31.25:755][  0]LogUObjectAllocator: 8461328 out of 0 bytes used by permanent object pool.
-[2017.10.20-00.31.25:755][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.10.20-00.31.26:166][  0]LogEngine: Initializing Engine...
-[2017.10.20-00.31.26:172][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.10.20-00.31.26:545][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.10.20-00.31.26:545][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.10.20-00.31.26:552][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.10.20-00.31.26:582][  0]LogInit: FAudioDevice initialized.
-[2017.10.20-00.31.26:738][  0]LogDerivedDataCache: Saved boot cache 0.14s 93MB C:/Users/Lawrence/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.20-00.31.26:763][  0]LogInit: Texture streaming: Enabled
-[2017.10.20-00.31.26:810][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.10.20-00.31.27:320][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NormalText'. Using FTextBlockStyle defaults instead.
-[2017.10.20-00.31.27:320][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'SpinBox'. Using FSpinBoxStyle defaults instead.
-[2017.10.20-00.31.27:589][  0]LogInit: Display: Game Engine Initialized.
-[2017.10.20-00.31.27:589][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.10.20-00.31.27:863][  0]LogInit: Display: Starting Game.
-[2017.10.20-00.31.27:864][  0]LogNet: Browse: /Engine/Maps/Entry?Name=Player
-[2017.10.20-00.31.27:864][  0]LogLoad: LoadMap: /Engine/Maps/Entry?Name=Player
-[2017.10.20-00.31.27:939][  0]LogMemory: Platform Memory Stats for Windows
-[2017.10.20-00.31.27:940][  0]LogMemory: Process Physical Memory: 816.61 MB used, 950.59 MB peak
-[2017.10.20-00.31.27:940][  0]LogMemory: Process Virtual Memory: 945.32 MB used, 1033.89 MB peak
-[2017.10.20-00.31.27:940][  0]LogMemory: Physical Memory: 5403.43 MB used,  10903.60 MB free, 16307.03 MB total
-[2017.10.20-00.31.27:940][  0]LogMemory: Virtual Memory: 1584.53 MB used,  10903.60 MB free, 134217728.00 MB total
-[2017.10.20-00.31.27:940][  0]LogMemory: 
-[2017.10.20-00.31.27:940][  0]Allocator Stats for TBB: (not implemented)
-[2017.10.20-00.31.28:117][  0]LogAIModule: Creating AISystem for world Entry
-[2017.10.20-00.31.28:117][  0]LogLoad: Game class is 'GameModeBase'
-[2017.10.20-00.31.28:119][  0]LogActorComponent: RegisterComponentWithWorld: (/Engine/Maps/Entry.Entry:PersistentLevel.WorldInfo_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.10.20-00.31.28:119][  0]LogActorComponent: RegisterComponentWithWorld: (/Engine/Maps/Entry.Entry:PersistentLevel.WorldInfo_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.10.20-00.31.28:119][  0]LogActorComponent: RegisterComponentWithWorld: (/Engine/Maps/Entry.Entry:PersistentLevel.WorldInfo_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.10.20-00.31.28:119][  0]LogWorld: Bringing World /Engine/Maps/Entry.Entry up for play (max tick rate 0) at 2017.10.19-19.31.28
-[2017.10.20-00.31.28:119][  0]LogWorld: Bringing up level for play took: 0.000899
-[2017.10.20-00.31.28:121][  0]LogLoad: Took 0.257313 seconds to LoadMap(/Engine/Maps/Entry)
-[2017.10.20-00.31.28:412][  0]LogRenderer: Reallocating scene render targets to support 1832x1032 Format 10 NumSamples 1 (Frame:1).
-[2017.10.20-00.31.28:412][  0]LogLoad: (Engine Initialization) Total time: 16.90 seconds
-[2017.10.20-00.31.28:412][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.10.20-00.31.28:413][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.10.20-00.31.28:430][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.10.20-00.31.28:431][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.10.20-00.31.28:474][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.10.20-00.31.28:474][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.10.20-00.31.28:487][  1]LogEngine: All Windows Closed
-[2017.10.20-00.31.28:488][  1]LogWindows: FPlatformMisc::RequestExit(0)
-[2017.10.20-00.31.29:212][  2]LogExit: Preparing to exit.
-[2017.10.20-00.31.29:213][  2]LogMoviePlayer: Shutting down movie player
-[2017.10.20-00.31.29:340][  2]LogExit: Game engine shut down
-[2017.10.20-00.31.29:405][  2]LogExit: Object subsystem successfully closed.
-[2017.10.20-00.31.29:433][  2]LogD3D11RHI: Shutdown
-[2017.10.20-00.31.29:433][  2]LogD3D11RHI: CleanupD3DDevice
-[2017.10.20-00.31.29:435][  2]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.10.20-00.31.29:466][  2]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (304)
-[2017.10.20-00.31.29:466][  2]LogModuleManager: Shutting down and abandoning module SequenceRecorder (302)
-[2017.10.20-00.31.29:466][  2]LogModuleManager: Shutting down and abandoning module AutomationController (300)
-[2017.10.20-00.31.29:466][  2]LogModuleManager: Shutting down and abandoning module AutomationWorker (298)
-[2017.10.20-00.31.29:466][  2]LogModuleManager: Shutting down and abandoning module AIModule (296)
-[2017.10.20-00.31.29:466][  2]LogModuleManager: Shutting down and abandoning module GameplayDebugger (295)
-[2017.10.20-00.31.29:467][  2]LogModuleManager: Shutting down and abandoning module AITestSuite (293)
-[2017.10.20-00.31.29:467][  2]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (290)
-[2017.10.20-00.31.29:467][  2]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (288)
-[2017.10.20-00.31.29:467][  2]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (286)
-[2017.10.20-00.31.29:467][  2]LogModuleManager: Shutting down and abandoning module Media (285)
-[2017.10.20-00.31.29:467][  2]LogModuleManager: Shutting down and abandoning module CharacterAI (282)
-[2017.10.20-00.31.29:467][  2]LogModuleManager: Shutting down and abandoning module SessionServices (280)
-[2017.10.20-00.31.29:467][  2]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (278)
-[2017.10.20-00.31.29:467][  2]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (276)
-[2017.10.20-00.31.29:467][  2]LogModuleManager: Shutting down and abandoning module MovieScene (274)
-[2017.10.20-00.31.29:467][  2]LogModuleManager: Shutting down and abandoning module GeometryCache (272)
-[2017.10.20-00.31.29:467][  2]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (271)
-[2017.10.20-00.31.29:467][  2]LogModuleManager: Shutting down and abandoning module Niagara (268)
-[2017.10.20-00.31.29:467][  2]LogModuleManager: Shutting down and abandoning module NiagaraEditor (267)
-[2017.10.20-00.31.29:467][  2]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (264)
-[2017.10.20-00.31.29:467][  2]LogModuleManager: Shutting down and abandoning module PortalServices (262)
-[2017.10.20-00.31.29:467][  2]LogModuleManager: Shutting down and abandoning module PortalRpc (260)
-[2017.10.20-00.31.29:467][  2]LogModuleManager: Shutting down and abandoning module MessagingRpc (258)
-[2017.10.20-00.31.29:467][  2]LogModuleManager: Shutting down and abandoning module ProfilerService (256)
-[2017.10.20-00.31.29:535][  2]LogModuleManager: Shutting down and abandoning module TaskGraph (254)
-[2017.10.20-00.31.29:535][  2]LogModuleManager: Shutting down and abandoning module SteamVRController (252)
-[2017.10.20-00.31.29:535][  2]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (250)
-[2017.10.20-00.31.29:535][  2]LogModuleManager: Shutting down and abandoning module OculusInput (248)
-[2017.10.20-00.31.29:535][  2]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (246)
-[2017.10.20-00.31.29:535][  2]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (244)
-[2017.10.20-00.31.29:535][  2]LogModuleManager: Shutting down and abandoning module CableComponent (242)
-[2017.10.20-00.31.29:535][  2]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (240)
-[2017.10.20-00.31.29:535][  2]LogModuleManager: Shutting down and abandoning module AndroidPermission (238)
-[2017.10.20-00.31.29:535][  2]LogModuleManager: Shutting down and abandoning module HTML5Networking (234)
-[2017.10.20-00.31.29:535][  2]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (232)
-[2017.10.20-00.31.29:535][  2]LogModuleManager: Shutting down and abandoning module DesktopPlatform (231)
-[2017.10.20-00.31.29:535][  2]LogModuleManager: Shutting down and abandoning module HotReload (229)
-[2017.10.20-00.31.29:535][  2]LogModuleManager: Shutting down and abandoning module UObjectPlugin (226)
-[2017.10.20-00.31.29:535][  2]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (224)
-[2017.10.20-00.31.29:535][  2]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (222)
-[2017.10.20-00.31.29:535][  2]LogModuleManager: Shutting down and abandoning module SourceControl (221)
-[2017.10.20-00.31.29:535][  2]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (218)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (216)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module PhysXVehicles (214)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (212)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (210)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (208)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module UdpMessaging (206)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module TcpMessaging (204)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (202)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module FacialAnimation (200)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (198)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module GraphEditor (197)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module ContentBrowser (195)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
-[2017.10.20-00.31.29:536][  2]LogDirectoryWatcher: A directory notification for 'C:/Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Collections/' was aborted.
-[2017.10.20-00.31.29:536][  2]LogDirectoryWatcher: A directory notification for 'C:/Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Developers/Lawrence/Collections/' was aborted.
-[2017.10.20-00.31.29:536][  2]LogDirectoryWatcher: A directory notification for 'C:/Users/Lawrence/Documents/Flare_BlitzU 4.17/Saved/Collections/' was aborted.
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (193)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (188)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module Paper2D (186)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (184)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module WmfMedia (182)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module PacketHandler (180)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (178)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (176)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module Overlay (174)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module OverlayEditor (173)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module MediaAssets (170)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module VREditor (168)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module StringTableEditor (166)
-[2017.10.20-00.31.29:536][  2]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (164)
-[2017.10.20-00.31.29:537][  2]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (162)
-[2017.10.20-00.31.29:537][  2]LogModuleManager: Shutting down and abandoning module FunctionalTesting (160)
-[2017.10.20-00.31.29:537][  2]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (158)
-[2017.10.20-00.31.29:537][  2]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (157)
-[2017.10.20-00.31.29:537][  2]LogModuleManager: Shutting down and abandoning module UMG (154)
-[2017.10.20-00.31.29:537][  2]LogModuleManager: Shutting down and abandoning module UMGEditor (153)
-[2017.10.20-00.31.29:537][  2]LogModuleManager: Shutting down and abandoning module Sequencer (152)
-[2017.10.20-00.31.29:537][  2]LogModuleManager: Shutting down and abandoning module MessageLog (149)
-[2017.10.20-00.31.29:537][  2]LogModuleManager: Shutting down and abandoning module SlateReflector (144)
-[2017.10.20-00.31.29:537][  2]LogModuleManager: Shutting down and abandoning module Slate (142)
-[2017.10.20-00.31.29:537][  2]LogModuleManager: Shutting down and abandoning module EditorStyle (140)
-[2017.10.20-00.31.29:539][  2]LogModuleManager: Shutting down and abandoning module MRMesh (138)
-[2017.10.20-00.31.29:539][  2]LogModuleManager: Shutting down and abandoning module Messaging (136)
-[2017.10.20-00.31.29:539][  2]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (134)
-[2017.10.20-00.31.29:539][  2]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (132)
-[2017.10.20-00.31.29:539][  2]LogModuleManager: Shutting down and abandoning module XAudio2 (130)
-[2017.10.20-00.31.29:539][  2]LogModuleManager: Shutting down and abandoning module Networking (128)
-[2017.10.20-00.31.29:539][  2]LogModuleManager: Shutting down and abandoning module Core (124)
-[2017.10.20-00.31.29:539][  2]LogModuleManager: Shutting down and abandoning module KismetCompiler (122)
-[2017.10.20-00.31.29:539][  2]LogModuleManager: Shutting down and abandoning module LevelSequence (120)
-[2017.10.20-00.31.29:539][  2]LogModuleManager: Shutting down and abandoning module MeshUtilities (118)
-[2017.10.20-00.31.29:539][  2]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (117)
-[2017.10.20-00.31.29:539][  2]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (116)
-[2017.10.20-00.31.29:539][  2]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (115)
-[2017.10.20-00.31.29:539][  2]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (113)
-[2017.10.20-00.31.29:539][  2]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (111)
-[2017.10.20-00.31.29:539][  2]LogModuleManager: Shutting down and abandoning module MaterialBaking (107)
-[2017.10.20-00.31.29:539][  2]LogModuleManager: Shutting down and abandoning module DerivedDataCache (102)
-[2017.10.20-00.31.29:663][  2]LogDerivedDataCache: Shutdown
-[2017.10.20-00.31.29:663][  2]LogModuleManager: Shutting down and abandoning module TargetPlatform (100)
-[2017.10.20-00.31.29:663][  2]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (99)
-[2017.10.20-00.31.29:663][  2]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (97)
-[2017.10.20-00.31.29:663][  2]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (95)
-[2017.10.20-00.31.29:663][  2]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (93)
-[2017.10.20-00.31.29:663][  2]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (91)
-[2017.10.20-00.31.29:663][  2]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (89)
-[2017.10.20-00.31.29:663][  2]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (87)
-[2017.10.20-00.31.29:663][  2]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (85)
-[2017.10.20-00.31.29:663][  2]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (83)
-[2017.10.20-00.31.29:663][  2]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (81)
-[2017.10.20-00.31.29:663][  2]LogModuleManager: Shutting down and abandoning module ImageWrapper (80)
-[2017.10.20-00.31.29:663][  2]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (77)
-[2017.10.20-00.31.29:663][  2]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (75)
-[2017.10.20-00.31.29:663][  2]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (73)
-[2017.10.20-00.31.29:663][  2]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (71)
-[2017.10.20-00.31.29:663][  2]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
-[2017.10.20-00.31.29:664][  2]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
-[2017.10.20-00.31.29:664][  2]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
-[2017.10.20-00.31.29:664][  2]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
-[2017.10.20-00.31.29:664][  2]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.10.20-00.31.29:664][  2]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.10.20-00.31.29:664][  2]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2017.10.20-00.31.29:664][  2]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2017.10.20-00.31.29:664][  2]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2017.10.20-00.31.29:664][  2]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.10.20-00.31.29:664][  2]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.10.20-00.31.29:664][  2]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.10.20-00.31.29:664][  2]LogOnline: Display: Unloading online subsystem: NULL
-[2017.10.20-00.31.29:664][  2]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.10.20-00.31.29:664][  2]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.10.20-00.31.29:686][  2]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.10.20-00.31.29:691][  2]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.10.20-00.31.29:691][  2]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.10.20-00.31.29:691][  2]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.10.20-00.31.29:691][  2]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.10.20-00.31.29:691][  2]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.10.20-00.31.29:691][  2]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.10.20-00.31.29:691][  2]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.10.20-00.31.29:691][  2]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.10.20-00.31.29:691][  2]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.10.20-00.31.29:691][  2]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.10.20-00.31.29:692][  2]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.10.20-00.31.29:692][  2]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.10.20-00.31.29:692][  2]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.10.20-00.31.29:692][  2]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.10.20-00.31.29:692][  2]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.10.20-00.31.29:692][  2]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.10.20-00.31.29:692][  2]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.10.20-00.31.29:692][  2]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.10.20-00.31.29:698][  2]LogExit: Exiting.
-[2017.10.20-00.31.29:702][  2]Log file closed, 10/19/17 19:31:29
+[2017.10.20-01.07.19:306][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.20-01.07.19:306][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.20-01.07.19:314][  0]LogInit: Computer: LAWRENCE-LAPTOP
+[2017.10.20-01.07.19:314][  0]LogInit: User: Lawrence
+[2017.10.20-01.07.19:314][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.20-01.07.19:314][  0]LogInit: High frequency timer resolution =2.533210 MHz
+[2017.10.20-01.07.19:314][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.20-01.07.19:314][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.20-01.07.19:314][  0]LogMemory: Process Physical Memory: 277.35 MB used, 277.35 MB peak
+[2017.10.20-01.07.19:314][  0]LogMemory: Process Virtual Memory: 274.06 MB used, 274.06 MB peak
+[2017.10.20-01.07.19:314][  0]LogMemory: Physical Memory: 4796.86 MB used,  11510.17 MB free, 16307.03 MB total
+[2017.10.20-01.07.19:314][  0]LogMemory: Virtual Memory: 668.79 MB used,  11510.17 MB free, 134217728.00 MB total
+[2017.10.20-01.07.19:471][  0]LogInit: Using OS detected language (en-US).
+[2017.10.20-01.07.19:471][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.20-01.07.19:474][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.20-01.07.20:109][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.20-01.07.20:163][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2017.10.20-01.07.20:163][  0]LogD3D11RHI:       3040/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.20-01.07.20:169][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.10.20-01.07.20:169][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.20-01.07.20:171][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.20-01.07.20:171][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.20-01.07.20:171][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.20-01.07.20:176][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.20-01.07.20:176][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.20-01.07.20:176][  0]LogWindows: EnumDisplayDevices:
+[2017.10.20-01.07.20:177][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.10.20-01.07.20:177][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.20-01.07.20:177][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.20-01.07.20:177][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.10.20-01.07.20:177][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2017.10.20-01.07.20:177][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.10.20-01.07.20:177][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.10.20-01.07.20:177][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.20-01.07.20:211][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.20-01.07.20:222][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.20-01.07.20:223][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Intermediate/Shaders/WorkingDirectory/11584/).
+[2017.10.20-01.07.20:223][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Lawrence/AppData/Local/Temp/UnrealShaderWorkingDir/2700772845942C73CB68D3829832520F/'.
+[2017.10.20-01.07.20:223][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.20-01.07.21:128][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.20-01.07.21:179][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.20-01.07.21:230][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.20-01.07.21:282][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.20-01.07.21:338][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.20-01.07.21:388][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.20-01.07.21:439][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.20-01.07.21:491][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.20-01.07.21:537][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.20-01.07.21:587][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.20-01.07.21:637][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.20-01.07.21:687][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.20-01.07.21:736][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.20-01.07.21:786][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.20-01.07.21:837][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.20-01.07.21:937][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.20-01.07.21:937][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.20-01.07.21:977][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.20-01.07.22:071][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.20-01.07.22:101][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.20-01.07.22:150][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.20-01.07.22:201][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.20-01.07.22:251][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.20-01.07.22:300][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.20-01.07.22:300][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.20-01.07.22:791][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.20-01.07.22:876][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/Lawrence/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.20-01.07.22:876][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Lawrence/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.20-01.07.22:876][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.20-01.07.22:876][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.20-01.07.22:877][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.20-01.07.22:877][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.20-01.07.22:892][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.20-01.07.22:905][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Lawrence/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.20-01.07.22:915][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.20-01.07.22:915][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.20-01.07.22:916][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.20-01.07.22:916][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.20-01.07.23:173][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
+[2017.10.20-01.07.23:299][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.20-01.07.23:452][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.20-01.07.23:797][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.20-01.07.23:853][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.20-01.07.23:854][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.20-01.07.23:854][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.20-01.07.23:854][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.20-01.07.23:854][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.20-01.07.24:210][  0]LogNetVersion: MyProject , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3113362612)
+[2017.10.20-01.07.24:430][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.040472 seconds
+[2017.10.20-01.07.24:436][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.20-01.07.24:436][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.20-01.07.24:436][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.20-01.07.24:521][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.20-01.07.27:202][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.20-01.07.27:243][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.20-01.07.27:890][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.20-01.07.28:302][  0]SourceControl: Source control is disabled
+[2017.10.20-01.07.28:302][  0]SourceControl: Source control is disabled
+[2017.10.20-01.07.28:352][  0]SourceControl: Source control is disabled
+[2017.10.20-01.07.28:400][  0]SourceControl: Source control is disabled
+[2017.10.20-01.07.28:998][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.20-01.07.29:252][  0]LogOcInput: OculusInput pre-init called
+[2017.10.20-01.07.29:514][  0]LogEngine: Initializing Engine...
+[2017.10.20-01.07.29:515][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.20-01.07.29:731][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.20-01.07.29:731][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.20-01.07.29:859][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.20-01.07.29:865][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-01.07.29:895][  0]LogInit: FAudioDevice initialized.
+[2017.10.20-01.07.29:992][  0]LogDerivedDataCache: Saved boot cache 0.10s 93MB C:/Users/Lawrence/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.20-01.07.30:002][  0]LogInit: Texture streaming: Enabled
+[2017.10.20-01.07.30:123][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.20-01.07.30:340][  0]LogInit: Transaction tracking system initialized
+[2017.10.20-01.07.30:654][  0]BlueprintLog: New page: Editor Load
+[2017.10.20-01.07.31:559][  0]LocalizationService: Localization service is disabled
+[2017.10.20-01.07.32:261][  0]LogConsoleResponse: Display: 
+[2017.10.20-01.07.32:437][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.20-01.07.32:437][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.20-01.07.32:437][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.20-01.07.32:501][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/' took 0.01s
+[2017.10.20-01.07.33:514][  0]SourceControl: Source control is disabled
+[2017.10.20-01.07.33:514][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.20-01.07.33:515][  0]LightingResults: New page: Lighting Build
+[2017.10.20-01.07.33:557][  0]MapCheck: New page: Map Check
+[2017.10.20-01.07.33:557][  0]LightingResults: New page: Lighting Build
+[2017.10.20-01.07.33:747][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.20-01.07.33:752][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.20-01.07.33:765][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.20-01.07.33:817][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.518ms to complete.
+[2017.10.20-01.07.33:817][  0]LogFileHelpers: Loading map 'Template_Default' took 0.303
+[2017.10.20-01.07.33:883][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.20-01.07.33:883][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.20-01.07.33:976][  0]LogCollectionManager: Loaded 0 collections in 0.002644 seconds
+[2017.10.20-01.07.34:055][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lawrence/Documents/Flare_BlitzU 4.17/Saved/Collections/' took 0.01s
+[2017.10.20-01.07.34:055][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Developers/Lawrence/Collections/' took 0.01s
+[2017.10.20-01.07.34:055][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Collections/' took 0.01s
+[2017.10.20-01.07.34:055][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.10.20-01.07.34:064][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2386 classes and 500 folders.
+[2017.10.20-01.07.34:129][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.20-01.07.34:173][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.20-01.07.35:186][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.20-01.07.35:188][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.20-01.07.35:192][  0]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.20-01.07.35:295][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MyProject
+[2017.10.20-01.07.35:295][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.20-01.07.35:295][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.20-01.07.35:295][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.20-01.07.35:295][  0]LogTemp: BranchPath = LAWRENCE-LAPTOP/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = LAWRENCE-LAPTOP/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.20-01.07.35:295][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Lawrence\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.20-01.07.35:295][  0]LogRenderer: Reallocating scene render targets to support 1152x568 Format 10 NumSamples 1 (Frame:1).
+[2017.10.20-01.07.35:524][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.20-01.07.35:524][  0]LogLoad: (Engine Initialization) Total time: 17.79 seconds
+[2017.10.20-01.07.35:524][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.20-01.07.35:525][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.20-01.07.35:572][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.20-01.07.35:610][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.20-01.07.35:628][  1]LogAssetRegistry: Asset discovery search completed in 12.4767 seconds
+[2017.10.20-01.07.35:630][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.20-01.07.35:630][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2017.10.20-01.07.36:695][ 17]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.20-01.07.42:625][172]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.20-01.07.43:049][172]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2017.10.20-01.07.43:722][172]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.20-01.07.43:891][173]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.20-01.07.49:895][320]LogEditorViewport: Clicking Background
+[2017.10.20-01.07.54:309][446]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-01.07.54:347][446]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-01.07.54:348][446]PIE: New page: PIE session: Untitled_1 (Oct 19, 2017, 3:07:54 PM)
+[2017.10.20-01.07.54:348][446]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.10.20-01.07.54:349][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001393s)
+[2017.10.20-01.07.54:350][446]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.20-01.07.54:350][446]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2017.10.20-01.07.54:350][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002213s)
+[2017.10.20-01.07.54:381][446]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-01.07.54:392][446]LogInit: FAudioDevice initialized.
+[2017.10.20-01.07.54:434][446]LogLoad: Game class is 'GameModeBase'
+[2017.10.20-01.07.54:437][446]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.10.19-20.07.54
+[2017.10.20-01.07.54:437][446]LogWorld: Bringing up level for play took: 0.001201
+[2017.10.20-01.07.54:480][446]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.10.20-01.07.54:481][446]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.07
+[2017.10.20-01.08.03:307][689]LogAIModule: Creating AISystem for world Level_00
+[2017.10.20-01.08.03:364][689]Cmd: MAP LOAD FILE="../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Hamster_Bread/Maps/Level_00.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.20-01.08.03:364][689]LightingResults: New page: Lighting Build
+[2017.10.20-01.08.03:365][689]LoadErrors: New page: Loading map: Level_00.umap
+[2017.10.20-01.08.03:365][689]MapCheck: New page: Map Check
+[2017.10.20-01.08.03:365][689]LightingResults: New page: Lighting Build
+[2017.10.20-01.08.03:441][689]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.20-01.08.03:478][689]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.20-01.08.03:548][689]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 69.666ms to complete.
+[2017.10.20-01.08.03:549][689]LogFileHelpers: Loading map 'Level_00' took 0.186
+[2017.10.20-01.08.21:988][243]LogEditorViewport: Clicking Background
+[2017.10.20-01.12.32:217][790]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_2
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.32:313][791]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_2
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.32:413][792]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_2
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.32:513][793]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_2
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.32:612][794]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_2
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.32:713][795]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_2
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.32:813][796]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_2
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.32:915][797]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_2
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.33:014][798]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_2
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.33:081][799]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_2
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.33:181][800]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_2
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.33:248][801]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_2
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.33:314][802]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_2
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.33:381][803]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_2
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.33:448][804]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_2
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.33:515][805]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_2
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.33:581][806]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_2
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.45:602][968]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_4
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.45:699][969]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_4
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.45:799][970]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_4
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.45:899][971]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_4
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.45:999][972]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_4
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.46:099][973]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_4
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.46:201][974]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_4
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.46:299][975]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_4
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.46:399][976]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_4
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.46:504][977]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_4
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.47:405][986]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_6
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.47:501][987]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_6
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.47:601][988]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_6
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.47:702][989]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_6
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.47:807][990]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_6
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.47:902][991]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_6
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.48:002][992]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_6
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.48:102][993]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_6
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.48:202][994]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_6
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.48:302][995]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_6
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.48:401][996]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_6
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.48:501][997]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_6
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.48:599][998]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-01.12.48:618][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-01.12.48:619][998]PIE: New page: PIE session: Level_00 (Oct 19, 2017, 3:12:48 PM)
+[2017.10.20-01.12.48:619][998]LogPlayLevel: Creating play world package: /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00
+[2017.10.20-01.12.48:622][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003363s)
+[2017.10.20-01.12.48:623][998]LogAIModule: Creating AISystem for world Level_00
+[2017.10.20-01.12.48:623][998]LogPlayLevel: PIE: World Init took: (0.000983s)
+[2017.10.20-01.12.48:623][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hamster_Bread/Maps/Level_00.Level_00 to /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 (0.004625s)
+[2017.10.20-01.12.48:704][998]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-01.12.48:718][998]LogInit: FAudioDevice initialized.
+[2017.10.20-01.12.48:769][998]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.20-01.12.48:774][998]LogWorld: Bringing World /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 up for play (max tick rate 60) at 2017.10.19-20.12.48
+[2017.10.20-01.12.48:774][998]LogWorld: Bringing up level for play took: 0.003620
+[2017.10.20-01.12.48:778][998]PIE: Play in editor start time for /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00 -0.634
+[2017.10.20-01.12.52:887][ 59]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_6
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.52:921][ 60]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_6
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.52:954][ 61]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_6
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.53:003][ 62]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_6
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.53:070][ 63]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_6
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.12.55:636][ 99]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-01.12.55:657][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-01.12.55:658][ 99]PIE: New page: PIE session: Level_00 (Oct 19, 2017, 3:12:55 PM)
+[2017.10.20-01.12.55:658][ 99]LogPlayLevel: Creating play world package: /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00
+[2017.10.20-01.12.55:661][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003394s)
+[2017.10.20-01.12.55:662][ 99]LogAIModule: Creating AISystem for world Level_00
+[2017.10.20-01.12.55:662][ 99]LogPlayLevel: PIE: World Init took: (0.000866s)
+[2017.10.20-01.12.55:662][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hamster_Bread/Maps/Level_00.Level_00 to /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 (0.004644s)
+[2017.10.20-01.12.55:691][ 99]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-01.12.55:710][ 99]LogInit: FAudioDevice initialized.
+[2017.10.20-01.12.55:811][ 99]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.20-01.12.55:818][ 99]LogWorld: Bringing World /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 up for play (max tick rate 60) at 2017.10.19-20.12.55
+[2017.10.20-01.12.55:819][ 99]LogWorld: Bringing up level for play took: 0.006000
+[2017.10.20-01.12.55:824][ 99]PIE: Play in editor start time for /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00 0.413
+[2017.10.20-01.14.49:655][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Hamster_Bread" FILE="../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Hamster_Bread/Hamster_Bread.uasset" SILENT=true
+[2017.10.20-01.14.49:989][612]LogSavePackage: Save=320.54ms
+[2017.10.20-01.14.49:989][612]LogSavePackage: Moving '../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Saved/Hamster_Bread03073920463CDE886B077CB52F698231.tmp' to '../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Hamster_Bread/Hamster_Bread.uasset'
+[2017.10.20-01.14.49:994][612]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Hamster_Bread/Hamster_Bread.uasset
+[2017.10.20-01.14.56:736][667]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MyProject
+[2017.10.20-01.14.56:736][667]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.20-01.14.56:736][667]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.20-01.14.56:736][667]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.20-01.14.56:739][667]LogTemp: BranchPath = LAWRENCE-LAPTOP/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = LAWRENCE-LAPTOP/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.20-01.14.56:750][667]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Lawrence\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.20-01.14.56:762][667]LogEditorViewport: Clicking Background
+[2017.10.20-01.15.31:195][961]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-01.15.31:247][961]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-01.15.31:247][961]PIE: New page: PIE session: Level_00 (Oct 19, 2017, 3:15:31 PM)
+[2017.10.20-01.15.31:247][961]LogPlayLevel: Creating play world package: /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00
+[2017.10.20-01.15.31:257][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009934s)
+[2017.10.20-01.15.31:259][961]LogAIModule: Creating AISystem for world Level_00
+[2017.10.20-01.15.31:260][961]LogPlayLevel: PIE: World Init took: (0.002204s)
+[2017.10.20-01.15.31:260][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hamster_Bread/Maps/Level_00.Level_00 to /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 (0.012940s)
+[2017.10.20-01.15.31:323][961]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-01.15.31:373][961]LogInit: FAudioDevice initialized.
+[2017.10.20-01.15.31:417][961]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.20-01.15.31:424][961]LogWorld: Bringing World /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 up for play (max tick rate 60) at 2017.10.19-20.15.31
+[2017.10.20-01.15.31:425][961]LogWorld: Bringing up level for play took: 0.005176
+[2017.10.20-01.15.31:429][961]PIE: Play in editor start time for /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00 0.018
+[2017.10.20-01.15.41:495][100]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-01.15.41:549][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-01.15.41:549][100]PIE: New page: PIE session: Level_00 (Oct 19, 2017, 3:15:41 PM)
+[2017.10.20-01.15.41:549][100]LogPlayLevel: Creating play world package: /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00
+[2017.10.20-01.15.41:556][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006238s)
+[2017.10.20-01.15.41:557][100]LogAIModule: Creating AISystem for world Level_00
+[2017.10.20-01.15.41:557][100]LogPlayLevel: PIE: World Init took: (0.001298s)
+[2017.10.20-01.15.41:557][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hamster_Bread/Maps/Level_00.Level_00 to /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 (0.008018s)
+[2017.10.20-01.15.41:590][100]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-01.15.41:609][100]LogInit: FAudioDevice initialized.
+[2017.10.20-01.15.41:649][100]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.20-01.15.41:653][100]LogWorld: Bringing World /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 up for play (max tick rate 60) at 2017.10.19-20.15.41
+[2017.10.20-01.15.41:653][100]LogWorld: Bringing up level for play took: 0.002223
+[2017.10.20-01.15.41:655][100]PIE: Play in editor start time for /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00 0.244
+[2017.10.20-01.17.32:605][917]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-01.17.32:662][917]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-01.17.32:662][917]PIE: New page: PIE session: Level_00 (Oct 19, 2017, 3:17:32 PM)
+[2017.10.20-01.17.32:663][917]LogPlayLevel: Creating play world package: /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00
+[2017.10.20-01.17.32:673][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009988s)
+[2017.10.20-01.17.32:675][917]LogAIModule: Creating AISystem for world Level_00
+[2017.10.20-01.17.32:676][917]LogPlayLevel: PIE: World Init took: (0.003561s)
+[2017.10.20-01.17.32:677][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hamster_Bread/Maps/Level_00.Level_00 to /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 (0.014451s)
+[2017.10.20-01.17.32:725][917]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-01.17.32:752][917]LogInit: FAudioDevice initialized.
+[2017.10.20-01.17.32:804][917]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.20-01.17.32:808][917]LogWorld: Bringing World /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 up for play (max tick rate 60) at 2017.10.19-20.17.32
+[2017.10.20-01.17.32:809][917]LogWorld: Bringing up level for play took: 0.003187
+[2017.10.20-01.17.32:812][917]PIE: Play in editor start time for /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00 -0.599
+[2017.10.20-01.17.32:813][917]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_InputAxisEvent', from offset 1807
+[2017.10.20-01.17.32:813][917]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:InpAxisEvt_Move_K2Node_InputAxisEvent_13
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread
+
+[2017.10.20-01.17.54:496][918]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_InputAxisEvent', from offset 1807
+[2017.10.20-01.17.54:496][918]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:InpAxisEvt_Move_K2Node_InputAxisEvent_13
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread
+
+[2017.10.20-01.18.02:248][919]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_InputAxisEvent', from offset 1807
+[2017.10.20-01.18.02:249][919]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:InpAxisEvt_Move_K2Node_InputAxisEvent_13
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread
+
+[2017.10.20-01.18.08:421][920]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_InputAxisEvent', from offset 1807
+[2017.10.20-01.18.08:421][920]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:InpAxisEvt_Move_K2Node_InputAxisEvent_13
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread
+
+[2017.10.20-01.18.26:809][921]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_InputAxisEvent', from offset 1807
+[2017.10.20-01.18.26:809][921]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:InpAxisEvt_Move_K2Node_InputAxisEvent_13
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread
+
+[2017.10.20-01.19.06:536][268]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_8
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.19.06:632][269]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_8
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.19.06:733][270]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_8
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.19.06:833][271]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_8
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.19.06:934][272]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_8
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.19.07:033][273]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_8
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.19.07:135][274]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_8
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.19.07:233][275]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_8
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.19.07:301][276]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_8
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.19.07:404][277]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_8
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.19.07:470][278]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_8
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.19.07:537][279]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_8
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.19.07:634][280]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_8
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.19.07:733][281]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_8
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.19.07:833][282]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_8
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.19.07:933][283]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_8
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.19.08:033][284]LogScript: Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Hamster_Bread_C /Engine/Transient.World_2:PersistentLevel.Hamster_Bread_C_8
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread:0637
+[2017.10.20-01.19.08:132][285]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-01.19.08:185][285]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-01.19.08:185][285]PIE: New page: PIE session: Level_00 (Oct 19, 2017, 3:19:08 PM)
+[2017.10.20-01.19.08:186][285]LogPlayLevel: Creating play world package: /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00
+[2017.10.20-01.19.08:194][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008147s)
+[2017.10.20-01.19.08:196][285]LogAIModule: Creating AISystem for world Level_00
+[2017.10.20-01.19.08:196][285]LogPlayLevel: PIE: World Init took: (0.001965s)
+[2017.10.20-01.19.08:196][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hamster_Bread/Maps/Level_00.Level_00 to /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 (0.010838s)
+[2017.10.20-01.19.08:255][285]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-01.19.08:283][285]LogInit: FAudioDevice initialized.
+[2017.10.20-01.19.08:346][285]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.20-01.19.08:353][285]LogWorld: Bringing World /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 up for play (max tick rate 60) at 2017.10.19-20.19.08
+[2017.10.20-01.19.08:354][285]LogWorld: Bringing up level for play took: 0.005899
+[2017.10.20-01.19.08:359][285]PIE: Play in editor start time for /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00 0.948
+[2017.10.20-01.19.08:361][285]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_InputAxisEvent', from offset 1807
+[2017.10.20-01.19.08:361][285]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:InpAxisEvt_Move_K2Node_InputAxisEvent_13
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread
+
+[2017.10.20-01.19.13:443][286]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_InputAxisEvent', from offset 1807
+[2017.10.20-01.19.13:443][286]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:InpAxisEvt_Move_K2Node_InputAxisEvent_13
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread
+
+[2017.10.20-01.19.17:388][286]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087567 > MaxSimulationTimeStep (0.050) for 'Hamster_Bread_C_0', movement 'Walking'
+[2017.10.20-01.19.17:422][287]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_InputAxisEvent', from offset 1807
+[2017.10.20-01.19.17:422][287]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:InpAxisEvt_Move_K2Node_InputAxisEvent_13
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread
+
+[2017.10.20-01.19.39:603][335]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Hamster_Bread/Maps/Level_00' took 0.057
+[2017.10.20-01.19.39:609][335]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Hamster_Bread/Hamster_Bread] ([1] browsable assets)...
+[2017.10.20-01.19.39:609][335]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hamster_Bread/Hamster_Bread]
+[2017.10.20-01.19.39:793][335]LogSavePackage: Save=175.60ms
+[2017.10.20-01.19.39:793][335]LogSavePackage: Moving '../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Saved/Hamster_Bread_Auto192961AB94C5906C522C28DB5F2576FAC.tmp' to '../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Saved/Autosaves/Game/Hamster_Bread/Hamster_Bread_Auto1.uasset'
+[2017.10.20-01.19.39:796][335]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Saved/Autosaves/Game/Hamster_Bread/Hamster_Bread_Auto1.uasset
+[2017.10.20-01.19.39:796][335]LogFileHelpers: Auto-saving content packages took 0.190
+[2017.10.20-01.20.16:159][701]LogSavePackage: Save=191.89ms
+[2017.10.20-01.20.16:159][701]LogSavePackage: Moving '../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Saved/Level_00614D3082481A24E66C8F50BEC350732D.tmp' to '../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Hamster_Bread/Maps/Level_00.umap'
+[2017.10.20-01.20.16:163][701]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Hamster_Bread/Maps/Level_00.umap
+[2017.10.20-01.20.19:488][748]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-01.20.19:529][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-01.20.19:530][748]PIE: New page: PIE session: Level_00 (Oct 19, 2017, 3:20:19 PM)
+[2017.10.20-01.20.19:530][748]LogPlayLevel: Creating play world package: /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00
+[2017.10.20-01.20.19:535][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004917s)
+[2017.10.20-01.20.19:536][748]LogAIModule: Creating AISystem for world Level_00
+[2017.10.20-01.20.19:536][748]LogPlayLevel: PIE: World Init took: (0.001211s)
+[2017.10.20-01.20.19:536][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hamster_Bread/Maps/Level_00.Level_00 to /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 (0.006554s)
+[2017.10.20-01.20.19:572][748]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-01.20.19:601][748]LogInit: FAudioDevice initialized.
+[2017.10.20-01.20.19:666][748]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.20-01.20.19:674][748]LogWorld: Bringing World /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 up for play (max tick rate 0) at 2017.10.19-20.20.19
+[2017.10.20-01.20.19:675][748]LogWorld: Bringing up level for play took: 0.005647
+[2017.10.20-01.20.19:679][748]PIE: Play in editor start time for /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00 0.268
+[2017.10.20-01.20.19:682][748]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_InputAxisEvent', from offset 1807
+[2017.10.20-01.20.19:682][748]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:InpAxisEvt_Move_K2Node_InputAxisEvent_13
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread
+
+[2017.10.20-01.20.26:581][749]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_InputAxisEvent', from offset 1807
+[2017.10.20-01.20.26:581][749]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:InpAxisEvt_Move_K2Node_InputAxisEvent_13
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread
+
+[2017.10.20-01.22.18:217][749]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087035 > MaxSimulationTimeStep (0.050) for 'Hamster_Bread_C_0', movement 'Walking'
+[2017.10.20-01.22.18:256][750]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_InputAxisEvent', from offset 1807
+[2017.10.20-01.22.18:256][750]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:InpAxisEvt_Move_K2Node_InputAxisEvent_13
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread
+
+[2017.10.20-01.22.24:816][751]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_InputAxisEvent', from offset 1807
+[2017.10.20-01.22.24:816][751]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:InpAxisEvt_Move_K2Node_InputAxisEvent_13
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread
+
+[2017.10.20-01.22.32:471][752]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_InputAxisEvent', from offset 1807
+[2017.10.20-01.22.32:471][752]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:InpAxisEvt_Move_K2Node_InputAxisEvent_13
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread
+
+[2017.10.20-01.22.35:169][753]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_InputAxisEvent', from offset 1807
+[2017.10.20-01.22.35:169][753]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:InpAxisEvt_Move_K2Node_InputAxisEvent_13
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread
+
+[2017.10.20-01.33.40:305][378]BlueprintLog: New page: Compile Hamster_Bread
+[2017.10.20-01.33.47:814][457]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-01.33.47:869][457]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-01.33.47:870][457]PIE: New page: PIE session: Level_00 (Oct 19, 2017, 3:33:47 PM)
+[2017.10.20-01.33.47:870][457]LogPlayLevel: Creating play world package: /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00
+[2017.10.20-01.33.47:876][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005248s)
+[2017.10.20-01.33.47:877][457]LogAIModule: Creating AISystem for world Level_00
+[2017.10.20-01.33.47:878][457]LogPlayLevel: PIE: World Init took: (0.002111s)
+[2017.10.20-01.33.47:878][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hamster_Bread/Maps/Level_00.Level_00 to /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 (0.007834s)
+[2017.10.20-01.33.47:919][457]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-01.33.47:937][457]LogInit: FAudioDevice initialized.
+[2017.10.20-01.33.47:977][457]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.20-01.33.47:984][457]LogWorld: Bringing World /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 up for play (max tick rate 0) at 2017.10.19-20.33.47
+[2017.10.20-01.33.47:984][457]LogWorld: Bringing up level for play took: 0.005131
+[2017.10.20-01.33.47:989][457]PIE: Play in editor start time for /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00 0.578
+[2017.10.20-01.33.47:997][457]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_InputAxisEvent', from offset 1807
+[2017.10.20-01.33.47:997][457]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:InpAxisEvt_Move_K2Node_InputAxisEvent_13
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread
+
+[2017.10.20-01.33.53:511][458]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_InputAxisEvent', from offset 1807
+[2017.10.20-01.33.53:511][458]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:InpAxisEvt_Move_K2Node_InputAxisEvent_13
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread
+
+[2017.10.20-01.34.06:452][583]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-01.34.06:472][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-01.34.06:472][583]PIE: New page: PIE session: Level_00 (Oct 19, 2017, 3:34:06 PM)
+[2017.10.20-01.34.06:472][583]LogPlayLevel: Creating play world package: /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00
+[2017.10.20-01.34.06:475][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003111s)
+[2017.10.20-01.34.06:476][583]LogAIModule: Creating AISystem for world Level_00
+[2017.10.20-01.34.06:476][583]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2017.10.20-01.34.06:476][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hamster_Bread/Maps/Level_00.Level_00 to /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 (0.004230s)
+[2017.10.20-01.34.06:522][583]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-01.34.06:536][583]LogInit: FAudioDevice initialized.
+[2017.10.20-01.34.06:574][583]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.20-01.34.06:580][583]LogWorld: Bringing World /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 up for play (max tick rate 0) at 2017.10.19-20.34.06
+[2017.10.20-01.34.06:581][583]LogWorld: Bringing up level for play took: 0.004426
+[2017.10.20-01.34.06:585][583]PIE: Play in editor start time for /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00 -0.826
+[2017.10.20-01.34.06:591][583]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_InputAxisEvent', from offset 1807
+[2017.10.20-01.34.06:591][583]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:InpAxisEvt_Move_K2Node_InputAxisEvent_13
+	Function /Game/Hamster_Bread/Hamster_Bread.Hamster_Bread_C:ExecuteUbergraph_Hamster_Bread
+
+[2017.10.20-01.34.14:088][646]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-01.34.14:143][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-01.34.14:144][646]PIE: New page: PIE session: Level_00 (Oct 19, 2017, 3:34:14 PM)
+[2017.10.20-01.34.14:144][646]LogPlayLevel: Creating play world package: /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00
+[2017.10.20-01.34.14:152][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007989s)
+[2017.10.20-01.34.14:154][646]LogAIModule: Creating AISystem for world Level_00
+[2017.10.20-01.34.14:154][646]LogPlayLevel: PIE: World Init took: (0.002014s)
+[2017.10.20-01.34.14:155][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hamster_Bread/Maps/Level_00.Level_00 to /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 (0.010719s)
+[2017.10.20-01.34.14:207][646]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-01.34.14:240][646]LogInit: FAudioDevice initialized.
+[2017.10.20-01.34.14:285][646]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.20-01.34.14:292][646]LogWorld: Bringing World /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 up for play (max tick rate 0) at 2017.10.19-20.34.14
+[2017.10.20-01.34.14:293][646]LogWorld: Bringing up level for play took: 0.005067
+[2017.10.20-01.34.14:298][646]PIE: Play in editor start time for /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00 0.887
+[2017.10.20-01.34.17:555][701]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-01.34.17:605][701]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-01.34.17:605][701]PIE: New page: PIE session: Level_00 (Oct 19, 2017, 3:34:17 PM)
+[2017.10.20-01.34.17:606][701]LogPlayLevel: Creating play world package: /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00
+[2017.10.20-01.34.17:611][701]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005199s)
+[2017.10.20-01.34.17:612][701]LogAIModule: Creating AISystem for world Level_00
+[2017.10.20-01.34.17:612][701]LogPlayLevel: PIE: World Init took: (0.001293s)
+[2017.10.20-01.34.17:612][701]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hamster_Bread/Maps/Level_00.Level_00 to /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 (0.006950s)
+[2017.10.20-01.34.17:646][701]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-01.34.17:664][701]LogInit: FAudioDevice initialized.
+[2017.10.20-01.34.17:701][701]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.20-01.34.17:707][701]LogWorld: Bringing World /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 up for play (max tick rate 0) at 2017.10.19-20.34.17
+[2017.10.20-01.34.17:708][701]LogWorld: Bringing up level for play took: 0.004193
+[2017.10.20-01.34.17:712][701]PIE: Play in editor start time for /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00 0.301
+[2017.10.20-01.34.58:305][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Hamster_Bread" FILE="../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Hamster_Bread/Hamster_Bread.uasset" SILENT=true
+[2017.10.20-01.34.58:729][819]LogSavePackage: Save=400.02ms
+[2017.10.20-01.34.58:729][819]LogSavePackage: Moving '../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Saved/Hamster_BreadB698C3844825D1CFBD55F7BE7147AD07.tmp' to '../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Hamster_Bread/Hamster_Bread.uasset'
+[2017.10.20-01.34.58:743][819]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Hamster_Bread/Hamster_Bread.uasset
+[2017.10.20-01.35.02:286][865]LogEditorViewport: Clicking Background
+[2017.10.20-01.35.18:107][ 57]BlueprintLog: New page: Compile Hamster_Bread
+[2017.10.20-01.35.22:575][ 99]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-01.35.22:613][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-01.35.22:613][ 99]PIE: New page: PIE session: Level_00 (Oct 19, 2017, 3:35:22 PM)
+[2017.10.20-01.35.22:614][ 99]LogPlayLevel: Creating play world package: /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00
+[2017.10.20-01.35.22:620][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006251s)
+[2017.10.20-01.35.22:621][ 99]LogAIModule: Creating AISystem for world Level_00
+[2017.10.20-01.35.22:622][ 99]LogPlayLevel: PIE: World Init took: (0.001670s)
+[2017.10.20-01.35.22:622][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hamster_Bread/Maps/Level_00.Level_00 to /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 (0.008452s)
+[2017.10.20-01.35.22:685][ 99]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-01.35.22:718][ 99]LogInit: FAudioDevice initialized.
+[2017.10.20-01.35.22:765][ 99]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.20-01.35.22:773][ 99]LogWorld: Bringing World /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 up for play (max tick rate 0) at 2017.10.19-20.35.22
+[2017.10.20-01.35.22:773][ 99]LogWorld: Bringing up level for play took: 0.005429
+[2017.10.20-01.35.22:778][ 99]PIE: Play in editor start time for /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00 -0.633
+[2017.10.20-01.35.29:477][202]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-01.35.29:495][202]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-01.35.29:495][202]PIE: New page: PIE session: Level_00 (Oct 19, 2017, 3:35:29 PM)
+[2017.10.20-01.35.29:496][202]LogPlayLevel: Creating play world package: /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00
+[2017.10.20-01.35.29:498][202]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002700s)
+[2017.10.20-01.35.29:499][202]LogAIModule: Creating AISystem for world Level_00
+[2017.10.20-01.35.29:499][202]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2017.10.20-01.35.29:499][202]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hamster_Bread/Maps/Level_00.Level_00 to /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 (0.003670s)
+[2017.10.20-01.35.29:521][202]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.20-01.35.29:537][202]LogInit: FAudioDevice initialized.
+[2017.10.20-01.35.29:592][202]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.20-01.35.29:596][202]LogWorld: Bringing World /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 up for play (max tick rate 0) at 2017.10.19-20.35.29
+[2017.10.20-01.35.29:596][202]LogWorld: Bringing up level for play took: 0.002093
+[2017.10.20-01.35.29:597][202]PIE: Play in editor start time for /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00 0.187
+[2017.10.20-01.35.42:735][679]Cmd: SELECT NONE
+[2017.10.20-01.36.04:617][ 64]LogSavePackage: Save=155.81ms
+[2017.10.20-01.36.04:618][ 64]LogSavePackage: Moving '../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Saved/Level_0074B68C9146F6E10E6274A08F4A01D428.tmp' to '../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Hamster_Bread/Maps/Level_00.umap'
+[2017.10.20-01.36.04:624][ 64]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Hamster_Bread/Maps/Level_00.umap
+[2017.10.20-01.36.07:392][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Hamster_Bread" FILE="../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Hamster_Bread/Hamster_Bread.uasset" SILENT=true
+[2017.10.20-01.36.07:635][100]LogSavePackage: Save=234.78ms
+[2017.10.20-01.36.07:635][100]LogSavePackage: Moving '../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Saved/Hamster_BreadD514CD894F7B1253A0A12AB498EF1C82.tmp' to '../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Hamster_Bread/Hamster_Bread.uasset'
+[2017.10.20-01.36.07:639][100]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Hamster_Bread/Hamster_Bread.uasset
+[2017.10.20-01.36.21:517][266]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.20-01.36.21:519][266]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.20-01.36.21:731][267]Cmd: QUIT_EDITOR
+[2017.10.20-01.36.21:981][267]LogExit: Preparing to exit.
+[2017.10.20-01.36.22:752][267]LogDirectoryWatcher: A directory notification for 'C:/Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/' was aborted.
+[2017.10.20-01.36.22:855][267]LogExit: Editor shut down
+[2017.10.20-01.36.22:870][267]LogExit: Transaction tracking system shut down
+[2017.10.20-01.36.23:106][267]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.20-01.36.23:106][267]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/' was aborted.
+[2017.10.20-01.36.23:106][267]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.20-01.36.23:106][267]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.10.20-01.36.23:106][267]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.10.20-01.36.23:206][267]LogExit: Object subsystem successfully closed.
+[2017.10.20-01.36.23:227][267]LogD3D11RHI: Shutdown
+[2017.10.20-01.36.23:227][267]LogD3D11RHI: CleanupD3DDevice
+[2017.10.20-01.36.23:419][267]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.20-01.36.23:484][267]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
+[2017.10.20-01.36.23:484][267]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2017.10.20-01.36.23:484][267]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2017.10.20-01.36.23:485][267]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.10.20-01.36.23:485][267]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (528)
+[2017.10.20-01.36.23:485][267]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.10.20-01.36.23:485][267]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.10.20-01.36.23:487][267]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.10.20-01.36.23:487][267]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.10.20-01.36.23:487][267]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.10.20-01.36.23:487][267]LogDirectoryWatcher: A directory notification for 'C:/Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Collections/' was aborted.
+[2017.10.20-01.36.23:487][267]LogDirectoryWatcher: A directory notification for 'C:/Users/Lawrence/Documents/Flare_BlitzU 4.17/Content/Developers/Lawrence/Collections/' was aborted.
+[2017.10.20-01.36.23:487][267]LogDirectoryWatcher: A directory notification for 'C:/Users/Lawrence/Documents/Flare_BlitzU 4.17/Saved/Collections/' was aborted.
+[2017.10.20-01.36.23:487][267]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.10.20-01.36.23:488][267]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.10.20-01.36.23:488][267]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.10.20-01.36.23:488][267]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.10.20-01.36.23:488][267]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.10.20-01.36.23:488][267]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.10.20-01.36.23:488][267]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.10.20-01.36.23:488][267]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.10.20-01.36.23:488][267]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.10.20-01.36.23:488][267]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.10.20-01.36.23:488][267]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.10.20-01.36.23:488][267]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.10.20-01.36.23:488][267]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.10.20-01.36.23:488][267]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.10.20-01.36.23:488][267]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.10.20-01.36.23:488][267]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.10.20-01.36.23:489][267]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.10.20-01.36.23:489][267]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.10.20-01.36.23:489][267]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.10.20-01.36.23:489][267]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.10.20-01.36.23:489][267]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.10.20-01.36.23:489][267]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.10.20-01.36.23:489][267]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.10.20-01.36.23:489][267]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.10.20-01.36.23:489][267]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.10.20-01.36.23:489][267]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.10.20-01.36.23:489][267]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.10.20-01.36.23:489][267]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.10.20-01.36.23:489][267]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.10.20-01.36.23:489][267]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.10.20-01.36.23:489][267]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.10.20-01.36.23:489][267]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.10.20-01.36.23:489][267]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.10.20-01.36.23:489][267]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.10.20-01.36.23:490][267]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.10.20-01.36.23:490][267]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.10.20-01.36.23:490][267]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.10.20-01.36.23:490][267]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.10.20-01.36.23:650][267]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.10.20-01.36.23:650][267]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.10.20-01.36.23:650][267]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.10.20-01.36.23:650][267]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.10.20-01.36.23:650][267]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.10.20-01.36.23:651][267]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.10.20-01.36.23:651][267]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.10.20-01.36.23:651][267]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.10.20-01.36.23:651][267]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.10.20-01.36.23:651][267]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.10.20-01.36.23:651][267]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.10.20-01.36.23:651][267]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.10.20-01.36.23:651][267]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.10.20-01.36.23:651][267]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.10.20-01.36.23:651][267]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.10.20-01.36.23:651][267]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.10.20-01.36.23:652][267]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.10.20-01.36.23:652][267]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.10.20-01.36.23:652][267]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.10.20-01.36.23:652][267]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.10.20-01.36.23:652][267]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.10.20-01.36.23:653][267]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.10.20-01.36.23:653][267]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.10.20-01.36.23:653][267]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.10.20-01.36.23:717][267]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.10.20-01.36.23:717][267]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.10.20-01.36.23:717][267]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.10.20-01.36.23:717][267]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.10.20-01.36.23:717][267]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.10.20-01.36.23:717][267]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.10.20-01.36.23:718][267]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.10.20-01.36.23:718][267]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.10.20-01.36.23:718][267]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.10.20-01.36.23:718][267]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.10.20-01.36.23:747][267]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.10.20-01.36.23:747][267]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.10.20-01.36.23:747][267]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.10.20-01.36.23:747][267]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.10.20-01.36.23:747][267]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.10.20-01.36.23:747][267]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.10.20-01.36.23:747][267]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.10.20-01.36.23:747][267]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.10.20-01.36.23:748][267]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.10.20-01.36.23:748][267]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.10.20-01.36.23:748][267]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.10.20-01.36.23:748][267]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.10.20-01.36.23:748][267]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.10.20-01.36.23:748][267]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.10.20-01.36.23:748][267]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.10.20-01.36.23:748][267]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.10.20-01.36.23:748][267]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.10.20-01.36.23:748][267]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.10.20-01.36.23:748][267]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.10.20-01.36.23:748][267]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.10.20-01.36.23:749][267]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.10.20-01.36.23:891][267]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.10.20-01.36.23:891][267]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.10.20-01.36.23:891][267]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.10.20-01.36.23:892][267]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.10.20-01.36.23:892][267]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.10.20-01.36.23:892][267]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.10.20-01.36.23:892][267]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.10.20-01.36.23:892][267]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.10.20-01.36.23:892][267]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.10.20-01.36.23:892][267]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.10.20-01.36.23:892][267]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.10.20-01.36.23:892][267]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.10.20-01.36.23:892][267]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.10.20-01.36.23:892][267]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.10.20-01.36.23:892][267]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.10.20-01.36.23:892][267]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.10.20-01.36.23:893][267]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.10.20-01.36.23:893][267]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.10.20-01.36.23:893][267]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.10.20-01.36.23:893][267]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.10.20-01.36.23:893][267]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.10.20-01.36.23:893][267]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.10.20-01.36.23:893][267]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.10.20-01.36.23:893][267]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.10.20-01.36.23:893][267]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.10.20-01.36.23:893][267]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.10.20-01.36.23:894][267]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.10.20-01.36.23:894][267]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.10.20-01.36.23:894][267]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.10.20-01.36.23:894][267]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.10.20-01.36.23:894][267]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.10.20-01.36.23:894][267]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.10.20-01.36.23:897][267]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.10.20-01.36.23:897][267]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.10.20-01.36.23:897][267]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.10.20-01.36.23:898][267]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.10.20-01.36.23:898][267]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.10.20-01.36.23:898][267]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.10.20-01.36.23:898][267]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.10.20-01.36.23:898][267]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.10.20-01.36.23:899][267]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.10.20-01.36.23:899][267]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.10.20-01.36.23:899][267]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.10.20-01.36.24:000][267]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.10.20-01.36.24:101][267]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.10.20-01.36.24:101][267]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.10.20-01.36.24:101][267]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.10.20-01.36.24:101][267]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.10.20-01.36.24:102][267]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.10.20-01.36.24:102][267]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.10.20-01.36.24:108][267]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.10.20-01.36.24:108][267]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.10.20-01.36.24:108][267]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.10.20-01.36.24:108][267]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.10.20-01.36.24:109][267]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.10.20-01.36.24:109][267]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.10.20-01.36.24:109][267]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.10.20-01.36.24:109][267]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.10.20-01.36.24:109][267]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.10.20-01.36.24:109][267]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.10.20-01.36.24:109][267]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.10.20-01.36.24:110][267]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.10.20-01.36.24:110][267]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.10.20-01.36.24:110][267]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.10.20-01.36.24:110][267]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.10.20-01.36.24:110][267]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.10.20-01.36.24:110][267]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.10.20-01.36.24:110][267]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.10.20-01.36.24:110][267]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.10.20-01.36.24:110][267]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.10.20-01.36.24:111][267]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.10.20-01.36.24:111][267]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.10.20-01.36.24:111][267]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.10.20-01.36.24:111][267]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.10.20-01.36.24:119][267]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.10.20-01.36.24:120][267]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.10.20-01.36.24:120][267]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.10.20-01.36.24:120][267]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.10.20-01.36.24:120][267]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.10.20-01.36.24:120][267]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.10.20-01.36.24:120][267]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.10.20-01.36.24:120][267]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.10.20-01.36.24:120][267]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.10.20-01.36.24:120][267]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.10.20-01.36.24:120][267]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.10.20-01.36.24:120][267]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.10.20-01.36.24:120][267]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.10.20-01.36.24:120][267]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.10.20-01.36.24:120][267]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.10.20-01.36.24:121][267]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.10.20-01.36.24:123][267]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.20-01.36.24:211][267]LogDerivedDataCache: Shutdown
+[2017.10.20-01.36.24:211][267]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.20-01.36.24:211][267]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.20-01.36.24:211][267]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.20-01.36.24:211][267]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.20-01.36.24:211][267]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.20-01.36.24:211][267]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.20-01.36.24:211][267]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.20-01.36.24:211][267]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.20-01.36.24:211][267]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.20-01.36.24:211][267]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.20-01.36.24:212][267]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.20-01.36.24:212][267]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.20-01.36.24:212][267]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.20-01.36.24:212][267]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.20-01.36.24:212][267]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.20-01.36.24:212][267]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.20-01.36.24:212][267]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.20-01.36.24:212][267]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.20-01.36.24:212][267]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.20-01.36.24:212][267]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.20-01.36.24:212][267]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.20-01.36.24:212][267]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.20-01.36.24:213][267]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.20-01.36.24:213][267]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.20-01.36.24:213][267]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.20-01.36.24:213][267]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.20-01.36.24:213][267]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.20-01.36.24:213][267]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.20-01.36.24:213][267]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.20-01.36.24:213][267]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.20-01.36.24:213][267]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.20-01.36.24:213][267]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.20-01.36.24:213][267]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.20-01.36.24:213][267]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.20-01.36.24:213][267]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.20-01.36.24:213][267]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.20-01.36.24:213][267]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.20-01.36.24:213][267]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.20-01.36.24:213][267]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.20-01.36.24:214][267]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.20-01.36.24:214][267]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.20-01.36.24:214][267]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.20-01.36.24:214][267]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.20-01.36.24:214][267]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.10.20-01.36.24:214][267]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.10.20-01.36.24:214][267]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.10.20-01.36.24:214][267]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.20-01.36.24:214][267]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.20-01.36.24:214][267]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.20-01.36.24:214][267]LogOnline: Display: Unloading online subsystem: NULL
+[2017.10.20-01.36.24:214][267]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.20-01.36.24:214][267]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.20-01.36.24:215][267]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.20-01.36.24:215][267]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6E4542B5-42AC-233B-61B1-05A0E42B8DB2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=3fbf32324ba8ba9f7dfb96964bb3283a%7C613c1bd7349947529ea85fe7dcb23b04%7C2602d2e5-3c1b-4c22-b67a-f5912c7be764&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.20-01.36.24:242][267]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.20-01.36.24:247][267]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.10.20-01.36.24:247][267]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.10.20-01.36.24:247][267]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.10.20-01.36.24:247][267]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.10.20-01.36.24:247][267]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.10.20-01.36.24:247][267]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.10.20-01.36.24:247][267]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.10.20-01.36.24:251][267]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.10.20-01.36.24:252][267]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.10.20-01.36.24:252][267]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.10.20-01.36.24:252][267]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.10.20-01.36.24:252][267]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.10.20-01.36.24:252][267]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.10.20-01.36.24:252][267]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.10.20-01.36.24:252][267]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.10.20-01.36.24:252][267]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.20-01.36.24:252][267]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.20-01.36.24:252][267]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.20-01.36.24:262][267]LogExit: Exiting.
+[2017.10.20-01.36.24:295][267]Log file closed, 10/19/17 20:36:24
