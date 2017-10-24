@@ -1,0 +1,680 @@
+﻿Log file open, 10/23/17 19:24:10
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-269122178) SRandInit(-269122177).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.122980
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: C:/Users/Ethan/Documents/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.24-00.24.10:837][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.24-00.24.10:837][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.24-00.24.10:847][  0]LogInit: Computer: MRBRANDLOYAL
+[2017.10.24-00.24.10:847][  0]LogInit: User: Ethan
+[2017.10.24-00.24.10:847][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.10.24-00.24.10:847][  0]LogInit: High frequency timer resolution =2.338339 MHz
+[2017.10.24-00.24.10:847][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.10.24-00.24.10:847][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.24-00.24.10:847][  0]LogMemory: Process Physical Memory: 276.68 MB used, 276.68 MB peak
+[2017.10.24-00.24.10:847][  0]LogMemory: Process Virtual Memory: 273.64 MB used, 273.64 MB peak
+[2017.10.24-00.24.10:847][  0]LogMemory: Physical Memory: 4714.52 MB used,  7495.75 MB free, 12210.27 MB total
+[2017.10.24-00.24.10:847][  0]LogMemory: Virtual Memory: 669.46 MB used,  7495.75 MB free, 134217728.00 MB total
+[2017.10.24-00.24.11:123][  0]LogInit: Using OS detected language (en-US).
+[2017.10.24-00.24.11:123][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.24-00.24.11:127][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.24-00.24.11:935][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.24-00.24.11:944][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2017.10.24-00.24.11:944][  0]LogD3D11RHI:       128/0/6105 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.10.24-00.24.11:947][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.24-00.24.11:947][  0]LogD3D11RHI:       0/0/6105 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.24-00.24.11:947][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.24-00.24.11:956][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.24-00.24.11:956][  0]LogD3D11RHI:     GPU DeviceId: 0x1616 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.24-00.24.11:956][  0]LogWindows: EnumDisplayDevices:
+[2017.10.24-00.24.11:957][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2017.10.24-00.24.11:957][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.10.24-00.24.11:957][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.10.24-00.24.11:958][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.10.24-00.24.11:958][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 5500
+[2017.10.24-00.24.11:958][  0]LogD3D11RHI:   Driver Version: 20.19.15.4531 (internal:20.19.15.4531, unified:20.19.15.4531)
+[2017.10.24-00.24.11:958][  0]LogD3D11RHI:      Driver Date: 9-29-2016
+[2017.10.24-00.24.11:958][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.24-00.24.11:967][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.24-00.24.11:973][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.10.24-00.24.11:974][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../GitHub/Flare_BlitzU/Intermediate/Shaders/WorkingDirectory/4992/).
+[2017.10.24-00.24.11:974][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ethan/AppData/Local/Temp/UnrealShaderWorkingDir/6A68EBDB461DAF1082F82DB4B89C524D/'.
+[2017.10.24-00.24.11:974][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.24-00.24.13:056][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.24-00.24.13:133][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.24-00.24.13:201][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.24-00.24.13:261][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.24-00.24.13:321][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.24-00.24.13:381][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.24-00.24.13:441][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.24-00.24.13:504][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.24-00.24.13:557][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.24-00.24.13:617][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.24-00.24.13:673][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.24-00.24.13:731][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.24-00.24.13:788][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.24-00.24.13:845][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.24-00.24.13:903][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.24-00.24.14:032][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.24-00.24.14:032][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.24-00.24.14:081][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.24-00.24.14:189][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.24-00.24.14:227][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.24-00.24.14:284][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.24-00.24.14:342][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.24-00.24.14:399][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.24-00.24.14:462][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.24-00.24.14:462][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.24-00.24.15:230][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.24-00.24.15:365][  0]LogDerivedDataCache: Loaded boot cache 0.14s 93MB C:/Users/Ethan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.24-00.24.15:366][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ethan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.24-00.24.15:366][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GitHub/Flare_BlitzU/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.24-00.24.15:366][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.24-00.24.15:366][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GitHub/Flare_BlitzU/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.24-00.24.15:366][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.24-00.24.15:386][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.24-00.24.15:400][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ethan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.24-00.24.15:413][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.24-00.24.15:414][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.24-00.24.15:414][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.24-00.24.15:414][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.24-00.24.15:765][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2017.10.24-00.24.15:937][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.24-00.24.16:135][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.24-00.24.16:581][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.24-00.24.16:645][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.24-00.24.16:645][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.24-00.24.16:645][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.24-00.24.16:645][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.24-00.24.16:645][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.24-00.24.17:087][  0]LogNetVersion: MyProject , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3113362612)
+[2017.10.24-00.24.17:392][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.064059 seconds
+[2017.10.24-00.24.17:402][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.24-00.24.17:402][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.24-00.24.17:402][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.24-00.24.17:502][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.24-00.24.20:922][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.24-00.24.20:968][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.24-00.24.21:758][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.24-00.24.22:237][  0]SourceControl: Source control is disabled
+[2017.10.24-00.24.22:237][  0]SourceControl: Source control is disabled
+[2017.10.24-00.24.22:294][  0]SourceControl: Source control is disabled
+[2017.10.24-00.24.22:350][  0]SourceControl: Source control is disabled
+[2017.10.24-00.24.23:045][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.24-00.24.23:340][  0]LogOcInput: OculusInput pre-init called
+[2017.10.24-00.24.23:652][  0]LogEngine: Initializing Engine...
+[2017.10.24-00.24.23:654][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.24-00.24.23:914][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.24-00.24.23:914][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.24-00.24.24:071][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.24-00.24.24:080][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.24-00.24.24:250][  0]LogInit: FAudioDevice initialized.
+[2017.10.24-00.24.24:496][  0]LogDerivedDataCache: Saved boot cache 0.25s 93MB C:/Users/Ethan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.24-00.24.24:540][  0]LogInit: Texture streaming: Enabled
+[2017.10.24-00.24.24:690][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.24-00.24.24:951][  0]LogInit: Transaction tracking system initialized
+[2017.10.24-00.24.25:327][  0]BlueprintLog: New page: Editor Load
+[2017.10.24-00.24.26:402][  0]LocalizationService: Localization service is disabled
+[2017.10.24-00.24.27:230][  0]LogConsoleResponse: Display: 
+[2017.10.24-00.24.27:457][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.24-00.24.27:457][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.24-00.24.27:457][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.24-00.24.28:687][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ethan/Documents/GitHub/Flare_BlitzU/Content/' took 0.02s
+[2017.10.24-00.24.28:746][  0]SourceControl: Source control is disabled
+[2017.10.24-00.24.28:857][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.24-00.24.28:858][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.24-00.24.28:935][  0]LogSlate: Took 0.000451 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.24-00.24.34:319][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.24-00.24.34:319][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.24-00.24.34:323][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.24-00.24.34:324][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.24-00.24.34:329][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.24-00.24.34:330][  0]LightingResults: New page: Lighting Build
+[2017.10.24-00.24.34:397][  0]MapCheck: New page: Map Check
+[2017.10.24-00.24.34:397][  0]LightingResults: New page: Lighting Build
+[2017.10.24-00.24.34:630][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.24-00.24.34:637][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.24-00.24.34:660][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.24-00.24.34:732][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 71.597ms to complete.
+[2017.10.24-00.24.34:732][  0]LogFileHelpers: Loading map 'Template_Default' took 0.403
+[2017.10.24-00.24.34:833][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_29a0_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_481c_0///####STATCAT_Advanced####
+[2017.10.24-00.24.34:833][  0]LogCollectionManager: Loaded 0 collections in 0.002054 seconds
+[2017.10.24-00.24.34:922][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ethan/Documents/GitHub/Flare_BlitzU/Saved/Collections/' took 0.01s
+[2017.10.24-00.24.34:922][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ethan/Documents/GitHub/Flare_BlitzU/Content/Developers/Ethan/Collections/' took 0.01s
+[2017.10.24-00.24.34:922][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ethan/Documents/GitHub/Flare_BlitzU/Content/Collections/' took 0.01s
+[2017.10.24-00.24.34:922][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.10.24-00.24.34:931][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2386 classes and 500 folders.
+[2017.10.24-00.24.35:008][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.24-00.24.35:053][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.24-00.24.35:111][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.24-00.24.35:219][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2017.10.24-00.24.35:220][  0]LogLoad: (Engine Initialization) Total time: 26.15 seconds
+[2017.10.24-00.24.35:220][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.24-00.24.35:220][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.24-00.24.35:250][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.24-00.24.35:254][  0]LogSlate: Took 0.000533 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.24-00.24.35:256][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.24-00.24.35:324][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.24-00.24.35:357][  1]LogAssetRegistry: Asset discovery search completed in 19.6143 seconds
+[2017.10.24-00.24.35:359][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.24-00.24.35:359][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2017.10.24-00.24.35:386][  2]LogRenderer: Reallocating scene render targets to support 1016x356 Format 10 NumSamples 1 (Frame:1).
+[2017.10.24-00.24.36:291][ 29]LogSlate: Took 0.000335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.24-00.25.16:594][734]LogSlate: Took 0.000760 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.24-00.25.16:957][734]LogAIModule: Creating AISystem for world Level_00
+[2017.10.24-00.25.16:991][734]Cmd: MAP LOAD FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Maps/Level_00.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.24-00.25.16:991][734]LightingResults: New page: Lighting Build
+[2017.10.24-00.25.16:992][734]LoadErrors: New page: Loading map: Level_00.umap
+[2017.10.24-00.25.16:993][734]MapCheck: New page: Map Check
+[2017.10.24-00.25.16:993][734]LightingResults: New page: Lighting Build
+[2017.10.24-00.25.17:013][734]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.24-00.25.17:065][734]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.24-00.25.17:170][734]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 105ms to complete.
+[2017.10.24-00.25.17:171][734]LogFileHelpers: Loading map 'Level_00' took 0.181
+[2017.10.24-00.25.22:619][936]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2017.10.24-00.25.23:464][936]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.24-00.25.23:544][936]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.24-00.25.23:845][937]LogSlate: Took 0.000838 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.24-00.25.57:112][ 12]BlueprintLog: New page: Compile Hamster_Bread
+[2017.10.24-00.26.00:901][123]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.24-00.26.01:031][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.24-00.26.01:031][123]PIE: New page: PIE session: Level_00 (Oct 23, 2017, 2:26:01 PM)
+[2017.10.24-00.26.01:031][123]LogPlayLevel: Creating play world package: /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00
+[2017.10.24-00.26.01:034][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002793s)
+[2017.10.24-00.26.01:034][123]LogAIModule: Creating AISystem for world Level_00
+[2017.10.24-00.26.01:035][123]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2017.10.24-00.26.01:035][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hamster_Bread/Maps/Level_00.Level_00 to /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 (0.003935s)
+[2017.10.24-00.26.01:059][123]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.24-00.26.01:076][123]LogInit: FAudioDevice initialized.
+[2017.10.24-00.26.01:151][123]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.24-00.26.01:154][123]LogWorld: Bringing World /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00.Level_00 up for play (max tick rate 0) at 2017.10.23-19.26.01
+[2017.10.24-00.26.01:155][123]LogWorld: Bringing up level for play took: 0.002219
+[2017.10.24-00.26.01:233][123]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0020 seconds. Added 11 classes and 0 folders.
+[2017.10.24-00.26.01:247][123]PIE: Play in editor start time for /Game/Hamster_Bread/Maps/UEDPIE_0_Level_00 0.304
+[2017.10.24-00.26.01:297][123]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.10.24-00.28.49:772][267]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Ethan\Pictures\Sprites\flare blitz sprites\Level 1 enemy1.png)
+[2017.10.24-00.28.49:789][267]LogTexture: Display: Building textures: Level_1_enemy1 (AutoDXT, 32X32)
+[2017.10.24-00.28.49:800][267]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Ethan\Pictures\Sprites\flare blitz sprites\Level 1 enemy2.png)
+[2017.10.24-00.28.49:802][267]LogTexture: Display: Building textures: Level_1_enemy2 (AutoDXT, 32X32)
+[2017.10.24-00.28.49:810][267]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Ethan\Pictures\Sprites\flare blitz sprites\Level 1 enemy3.png)
+[2017.10.24-00.28.49:813][267]LogTexture: Display: Building textures: Level_1_enemy3 (AutoDXT, 32X32)
+[2017.10.24-00.29.19:218][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/enemies/squeep_1" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/enemies/squeep_1.uasset" SILENT=true
+[2017.10.24-00.29.19:231][ 97]LogSavePackage: Save=7.77ms
+[2017.10.24-00.29.19:231][ 97]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/squeep_1FFCC51024B049E39FC25788D1B240D15.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/enemies/squeep_1.uasset'
+[2017.10.24-00.29.19:241][ 97]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/enemies/squeep_1.uasset
+[2017.10.24-00.29.37:132][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/enemies/squeep_dead" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/enemies/squeep_dead.uasset" SILENT=true
+[2017.10.24-00.29.37:139][181]LogSavePackage: Save=4.25ms
+[2017.10.24-00.29.37:139][181]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/squeep_dead66ACD6C5426828F375EC2795045258D4.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/enemies/squeep_dead.uasset'
+[2017.10.24-00.29.37:142][181]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/enemies/squeep_dead.uasset
+[2017.10.24-00.29.47:885][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/enemies/squeep_2" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/enemies/squeep_2.uasset" SILENT=true
+[2017.10.24-00.29.47:891][875]LogSavePackage: Save=2.94ms
+[2017.10.24-00.29.47:891][875]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/squeep_2B5A13760435029E6B37216922D298E69.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/enemies/squeep_2.uasset'
+[2017.10.24-00.29.47:895][875]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/enemies/squeep_2.uasset
+[2017.10.24-00.30.25:229][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_fall_0_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_fall_0_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:238][ 70]LogSavePackage: Save=6.32ms
+[2017.10.24-00.30.25:238][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_fall_0_SpriteF5329EE543BF39A35F15CCA93FD6B682.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_fall_0_Sprite.uasset'
+[2017.10.24-00.30.25:243][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_fall_0_Sprite.uasset
+[2017.10.24-00.30.25:256][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_fall_1_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_fall_1_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:264][ 70]LogSavePackage: Save=5.84ms
+[2017.10.24-00.30.25:264][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_fall_1_SpriteA8E4AE744B8AE0AF27A706A4199D5B07.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_fall_1_Sprite.uasset'
+[2017.10.24-00.30.25:268][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_fall_1_Sprite.uasset
+[2017.10.24-00.30.25:281][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_idle_0_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_0_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:289][ 70]LogSavePackage: Save=5.66ms
+[2017.10.24-00.30.25:289][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idle_0_Sprite47B8DCDD49ADE5BCD2EA5C941D97E8B5.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_0_Sprite.uasset'
+[2017.10.24-00.30.25:294][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_0_Sprite.uasset
+[2017.10.24-00.30.25:309][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_idle_10_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_10_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:317][ 70]LogSavePackage: Save=5.94ms
+[2017.10.24-00.30.25:317][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idle_10_Sprite8CDDEEF043F12423FD0921ACFEE89F80.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_10_Sprite.uasset'
+[2017.10.24-00.30.25:323][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_10_Sprite.uasset
+[2017.10.24-00.30.25:338][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_idle_11_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_11_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:346][ 70]LogSavePackage: Save=6.33ms
+[2017.10.24-00.30.25:347][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idle_11_Sprite8A993C34496D0F1E52DD7782D8DB611E.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_11_Sprite.uasset'
+[2017.10.24-00.30.25:351][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_11_Sprite.uasset
+[2017.10.24-00.30.25:363][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_idle_1_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_1_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:371][ 70]LogSavePackage: Save=6.72ms
+[2017.10.24-00.30.25:372][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idle_1_SpriteEE25AB544265A2C9EC464297124DD946.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_1_Sprite.uasset'
+[2017.10.24-00.30.25:377][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_1_Sprite.uasset
+[2017.10.24-00.30.25:393][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_idle_2_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_2_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:402][ 70]LogSavePackage: Save=6.92ms
+[2017.10.24-00.30.25:402][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idle_2_Sprite0C807617421130519DC7F78B832BCBBF.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_2_Sprite.uasset'
+[2017.10.24-00.30.25:407][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_2_Sprite.uasset
+[2017.10.24-00.30.25:420][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_idle_3_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_3_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:427][ 70]LogSavePackage: Save=5.63ms
+[2017.10.24-00.30.25:428][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idle_3_Sprite59D8C589441B521E00DA2BA634426BDB.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_3_Sprite.uasset'
+[2017.10.24-00.30.25:432][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_3_Sprite.uasset
+[2017.10.24-00.30.25:444][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_idle_4_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_4_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:452][ 70]LogSavePackage: Save=6.14ms
+[2017.10.24-00.30.25:452][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idle_4_Sprite49FC8D5340A347904DA8F28C56AFBEC1.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_4_Sprite.uasset'
+[2017.10.24-00.30.25:457][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_4_Sprite.uasset
+[2017.10.24-00.30.25:469][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_idle_5_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_5_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:477][ 70]LogSavePackage: Save=6.12ms
+[2017.10.24-00.30.25:477][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idle_5_Sprite09EC84844F930FA9AFAA999CB15FCA89.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_5_Sprite.uasset'
+[2017.10.24-00.30.25:481][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_5_Sprite.uasset
+[2017.10.24-00.30.25:494][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_idle_6_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_6_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:503][ 70]LogSavePackage: Save=6.41ms
+[2017.10.24-00.30.25:503][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idle_6_SpriteB292F38F4C59D1F89629B594BB0AB978.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_6_Sprite.uasset'
+[2017.10.24-00.30.25:508][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_6_Sprite.uasset
+[2017.10.24-00.30.25:520][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_idle_7_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_7_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:529][ 70]LogSavePackage: Save=5.84ms
+[2017.10.24-00.30.25:529][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idle_7_Sprite0A3209A0441B7E64D9D246B64D8C9246.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_7_Sprite.uasset'
+[2017.10.24-00.30.25:534][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_7_Sprite.uasset
+[2017.10.24-00.30.25:546][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_idle_8_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_8_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:554][ 70]LogSavePackage: Save=5.83ms
+[2017.10.24-00.30.25:554][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idle_8_Sprite0E3B305645DB512B8F0C21BF49BB3E42.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_8_Sprite.uasset'
+[2017.10.24-00.30.25:559][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_8_Sprite.uasset
+[2017.10.24-00.30.25:571][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_idle_9_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_9_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:579][ 70]LogSavePackage: Save=5.79ms
+[2017.10.24-00.30.25:579][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idle_9_Sprite808F3F5A488AC4FF4ED107839BC3989D.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_9_Sprite.uasset'
+[2017.10.24-00.30.25:584][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_idle_9_Sprite.uasset
+[2017.10.24-00.30.25:600][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_jump_0_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_0_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:608][ 70]LogSavePackage: Save=6.42ms
+[2017.10.24-00.30.25:608][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump_0_Sprite61A6FF434F8C36F530231295AAC29039.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_0_Sprite.uasset'
+[2017.10.24-00.30.25:613][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_0_Sprite.uasset
+[2017.10.24-00.30.25:626][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_jump_10_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_10_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:633][ 70]LogSavePackage: Save=5.87ms
+[2017.10.24-00.30.25:634][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump_10_SpriteC75B8D854C00FD2F45186681F3EACD59.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_10_Sprite.uasset'
+[2017.10.24-00.30.25:638][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_10_Sprite.uasset
+[2017.10.24-00.30.25:651][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_jump_11_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_11_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:660][ 70]LogSavePackage: Save=6.31ms
+[2017.10.24-00.30.25:660][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump_11_Sprite2014A4FC4468D36E6A592393E482BEF9.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_11_Sprite.uasset'
+[2017.10.24-00.30.25:666][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_11_Sprite.uasset
+[2017.10.24-00.30.25:681][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_jump_12_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_12_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:689][ 70]LogSavePackage: Save=5.87ms
+[2017.10.24-00.30.25:689][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump_12_Sprite86378FAD465C2F98A47D85A22A70A262.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_12_Sprite.uasset'
+[2017.10.24-00.30.25:694][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_12_Sprite.uasset
+[2017.10.24-00.30.25:710][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_jump_13_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_13_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:718][ 70]LogSavePackage: Save=6.07ms
+[2017.10.24-00.30.25:718][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump_13_SpriteAA6BDBC746072F1348EA5AA7A680DF6C.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_13_Sprite.uasset'
+[2017.10.24-00.30.25:723][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_13_Sprite.uasset
+[2017.10.24-00.30.25:736][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_jump_1_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_1_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:744][ 70]LogSavePackage: Save=5.82ms
+[2017.10.24-00.30.25:744][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump_1_Sprite9FDC84C04522F9B4CE88B5B67481E335.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_1_Sprite.uasset'
+[2017.10.24-00.30.25:749][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_1_Sprite.uasset
+[2017.10.24-00.30.25:762][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_jump_2_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_2_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:770][ 70]LogSavePackage: Save=5.84ms
+[2017.10.24-00.30.25:770][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump_2_Sprite936B7B6742E84FB1A33A3EBFACC4602E.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_2_Sprite.uasset'
+[2017.10.24-00.30.25:775][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_2_Sprite.uasset
+[2017.10.24-00.30.25:788][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_jump_3_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_3_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:796][ 70]LogSavePackage: Save=5.94ms
+[2017.10.24-00.30.25:796][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump_3_Sprite310362084CE10F94FE4F2D9C2C2CFAD9.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_3_Sprite.uasset'
+[2017.10.24-00.30.25:801][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_3_Sprite.uasset
+[2017.10.24-00.30.25:818][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_jump_4_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_4_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:827][ 70]LogSavePackage: Save=6.83ms
+[2017.10.24-00.30.25:827][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump_4_SpriteA31DAB974F104D5D62F75095BF4D8C53.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_4_Sprite.uasset'
+[2017.10.24-00.30.25:832][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_4_Sprite.uasset
+[2017.10.24-00.30.25:848][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_jump_5_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_5_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:855][ 70]LogSavePackage: Save=5.71ms
+[2017.10.24-00.30.25:855][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump_5_Sprite6AF62BEE47DB6F0E826523B2513A3DBD.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_5_Sprite.uasset'
+[2017.10.24-00.30.25:860][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_5_Sprite.uasset
+[2017.10.24-00.30.25:876][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_jump_6_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_6_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:884][ 70]LogSavePackage: Save=6.29ms
+[2017.10.24-00.30.25:884][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump_6_SpriteD4C8E87848CA4DDEB8373C8FAA8D3ACD.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_6_Sprite.uasset'
+[2017.10.24-00.30.25:889][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_6_Sprite.uasset
+[2017.10.24-00.30.25:904][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_jump_7_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_7_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:912][ 70]LogSavePackage: Save=6.57ms
+[2017.10.24-00.30.25:912][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump_7_SpriteB05D62AC45D3393D98BF69A95B012D39.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_7_Sprite.uasset'
+[2017.10.24-00.30.25:917][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_7_Sprite.uasset
+[2017.10.24-00.30.25:932][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_jump_8_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_8_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:940][ 70]LogSavePackage: Save=5.73ms
+[2017.10.24-00.30.25:940][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump_8_Sprite1050AB6E480D0581F1CBAAB72AE305E2.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_8_Sprite.uasset'
+[2017.10.24-00.30.25:945][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_8_Sprite.uasset
+[2017.10.24-00.30.25:960][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_jump_9_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_9_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:969][ 70]LogSavePackage: Save=6.14ms
+[2017.10.24-00.30.25:969][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump_9_SpriteA6F74F08407CD926CB4EED84746C7C74.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_9_Sprite.uasset'
+[2017.10.24-00.30.25:973][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_jump_9_Sprite.uasset
+[2017.10.24-00.30.25:989][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_tackle_0_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_0_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.25:996][ 70]LogSavePackage: Save=6.02ms
+[2017.10.24-00.30.25:996][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_tackle_0_SpriteF0E1AC1D46AB0DD754CDAFAE96917F29.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_0_Sprite.uasset'
+[2017.10.24-00.30.26:001][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_0_Sprite.uasset
+[2017.10.24-00.30.26:014][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_tackle_1_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_1_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.26:022][ 70]LogSavePackage: Save=5.94ms
+[2017.10.24-00.30.26:022][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_tackle_1_Sprite6DD963CC4B5F905DB85112B9156DD598.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_1_Sprite.uasset'
+[2017.10.24-00.30.26:027][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_1_Sprite.uasset
+[2017.10.24-00.30.26:040][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_tackle_2_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_2_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.26:049][ 70]LogSavePackage: Save=6.51ms
+[2017.10.24-00.30.26:049][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_tackle_2_Sprite58A9BA0F447C339E669E7C9A22DD9724.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_2_Sprite.uasset'
+[2017.10.24-00.30.26:053][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_2_Sprite.uasset
+[2017.10.24-00.30.26:066][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_tackle_3_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_3_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.26:073][ 70]LogSavePackage: Save=5.79ms
+[2017.10.24-00.30.26:074][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_tackle_3_Sprite20631CC14525B431FA2CBAA4B4D698FD.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_3_Sprite.uasset'
+[2017.10.24-00.30.26:078][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_3_Sprite.uasset
+[2017.10.24-00.30.26:090][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_tackle_4_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_4_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.26:098][ 70]LogSavePackage: Save=6.26ms
+[2017.10.24-00.30.26:098][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_tackle_4_Sprite50AF9D714FF6CDF3A52F3F8A9539B329.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_4_Sprite.uasset'
+[2017.10.24-00.30.26:103][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_4_Sprite.uasset
+[2017.10.24-00.30.26:116][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_tackle_5_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_5_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.26:124][ 70]LogSavePackage: Save=6.00ms
+[2017.10.24-00.30.26:124][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_tackle_5_SpriteD18BF71D4DE8E2449FC940A405A6212F.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_5_Sprite.uasset'
+[2017.10.24-00.30.26:129][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_5_Sprite.uasset
+[2017.10.24-00.30.26:142][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_tackle_6_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_6_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.26:150][ 70]LogSavePackage: Save=6.07ms
+[2017.10.24-00.30.26:150][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_tackle_6_SpriteCA1DC81D4865D45C13C0C0BE0608C092.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_6_Sprite.uasset'
+[2017.10.24-00.30.26:155][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_6_Sprite.uasset
+[2017.10.24-00.30.26:168][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_tackle_7_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_7_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.26:176][ 70]LogSavePackage: Save=5.89ms
+[2017.10.24-00.30.26:176][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_tackle_7_SpriteBA8E3B4346C27910327DB88DB331C87A.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_7_Sprite.uasset'
+[2017.10.24-00.30.26:180][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_tackle_7_Sprite.uasset
+[2017.10.24-00.30.26:196][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_walk_0_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_0_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.26:205][ 70]LogSavePackage: Save=7.03ms
+[2017.10.24-00.30.26:205][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_walk_0_Sprite3DF874CD4D83298FA3D5CAAD9AEA47BE.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_0_Sprite.uasset'
+[2017.10.24-00.30.26:210][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_0_Sprite.uasset
+[2017.10.24-00.30.26:222][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_walk_1_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_1_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.26:230][ 70]LogSavePackage: Save=6.04ms
+[2017.10.24-00.30.26:230][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_walk_1_SpriteCE91EE804B3749F474975B9451996024.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_1_Sprite.uasset'
+[2017.10.24-00.30.26:235][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_1_Sprite.uasset
+[2017.10.24-00.30.26:248][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_walk_2_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_2_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.26:256][ 70]LogSavePackage: Save=5.86ms
+[2017.10.24-00.30.26:256][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_walk_2_Sprite469AF40849F82BF812693F903CAB7A3B.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_2_Sprite.uasset'
+[2017.10.24-00.30.26:260][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_2_Sprite.uasset
+[2017.10.24-00.30.26:273][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_walk_3_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_3_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.26:281][ 70]LogSavePackage: Save=6.17ms
+[2017.10.24-00.30.26:281][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_walk_3_Sprite4E93BAF64871AFE1779168903F43E2DA.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_3_Sprite.uasset'
+[2017.10.24-00.30.26:287][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_3_Sprite.uasset
+[2017.10.24-00.30.26:300][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_walk_4_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_4_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.26:308][ 70]LogSavePackage: Save=5.95ms
+[2017.10.24-00.30.26:308][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_walk_4_Sprite93721FE84E39F06527DE968CC760A2F6.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_4_Sprite.uasset'
+[2017.10.24-00.30.26:312][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_4_Sprite.uasset
+[2017.10.24-00.30.26:325][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_walk_5_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_5_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.26:333][ 70]LogSavePackage: Save=6.00ms
+[2017.10.24-00.30.26:333][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_walk_5_SpriteCAD4554E450781B43D8373908CE0D757.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_5_Sprite.uasset'
+[2017.10.24-00.30.26:338][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_5_Sprite.uasset
+[2017.10.24-00.30.26:351][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/bh_walk_6_Sprite" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_6_Sprite.uasset" SILENT=true
+[2017.10.24-00.30.26:359][ 70]LogSavePackage: Save=6.03ms
+[2017.10.24-00.30.26:359][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_walk_6_Sprite2B90D48A4A7F62A7BEFF5F96D291F803.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_6_Sprite.uasset'
+[2017.10.24-00.30.26:364][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/bh_walk_6_Sprite.uasset
+[2017.10.24-00.30.29:661][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_fall" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_fall.uasset" SILENT=true
+[2017.10.24-00.30.29:671][ 70]LogSavePackage: Save=4.71ms
+[2017.10.24-00.30.29:671][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_fall0A0D295F44A397EF65C9CEA49015FC32.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_fall.uasset'
+[2017.10.24-00.30.29:673][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_fall.uasset
+[2017.10.24-00.30.29:677][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh_fall_0" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh_fall_0.uasset" SILENT=true
+[2017.10.24-00.30.29:684][ 70]LogSavePackage: Save=1.82ms
+[2017.10.24-00.30.29:684][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_fall_09C1B19C843F3A3378C2AD0A0FF9D7558.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh_fall_0.uasset'
+[2017.10.24-00.30.29:686][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh_fall_0.uasset
+[2017.10.24-00.30.29:689][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_fall" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_fall.uasset" SILENT=true
+[2017.10.24-00.30.29:695][ 70]LogSavePackage: Save=1.99ms
+[2017.10.24-00.30.29:695][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_fall830C62DA4CB19917875C1E88DED89788.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_fall.uasset'
+[2017.10.24-00.30.29:698][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_fall.uasset
+[2017.10.24-00.30.29:701][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh_fall_1" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh_fall_1.uasset" SILENT=true
+[2017.10.24-00.30.29:709][ 70]LogSavePackage: Save=1.85ms
+[2017.10.24-00.30.29:709][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_fall_150B0DE044AD97B24EF799FB0E840A186.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh_fall_1.uasset'
+[2017.10.24-00.30.29:711][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh_fall_1.uasset
+[2017.10.24-00.30.29:723][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_idle" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset" SILENT=true
+[2017.10.24-00.30.29:736][ 70]LogSavePackage: Save=6.22ms
+[2017.10.24-00.30.29:736][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idleA5AEFE944C4272847C95709AF3DFC49D.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset'
+[2017.10.24-00.30.29:739][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset
+[2017.10.24-00.30.29:742][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_idle" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset" SILENT=true
+[2017.10.24-00.30.29:749][ 70]LogSavePackage: Save=2.10ms
+[2017.10.24-00.30.29:749][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idle445DBCDB4CBD26BA73DED4ADA6D7EF4C.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset'
+[2017.10.24-00.30.29:752][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset
+[2017.10.24-00.30.29:756][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_idle" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset" SILENT=true
+[2017.10.24-00.30.29:762][ 70]LogSavePackage: Save=2.09ms
+[2017.10.24-00.30.29:762][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idle6503AE8E4CE4FFCA5679B2B2DC00969F.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset'
+[2017.10.24-00.30.29:764][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset
+[2017.10.24-00.30.29:767][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_idle" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset" SILENT=true
+[2017.10.24-00.30.29:773][ 70]LogSavePackage: Save=2.27ms
+[2017.10.24-00.30.29:773][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idle7611FEAC46FC7A2B49319C8AF3411562.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset'
+[2017.10.24-00.30.29:777][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset
+[2017.10.24-00.30.29:780][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_idle" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset" SILENT=true
+[2017.10.24-00.30.29:786][ 70]LogSavePackage: Save=2.05ms
+[2017.10.24-00.30.29:786][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idleCDCBA97B46A7674C132578A78BBD4F96.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset'
+[2017.10.24-00.30.29:790][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset
+[2017.10.24-00.30.29:794][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_idle" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset" SILENT=true
+[2017.10.24-00.30.29:801][ 70]LogSavePackage: Save=2.18ms
+[2017.10.24-00.30.29:801][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idle906EFFCB45F087BBE0040AB798C2BBD4.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset'
+[2017.10.24-00.30.29:804][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset
+[2017.10.24-00.30.29:807][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_idle" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset" SILENT=true
+[2017.10.24-00.30.29:814][ 70]LogSavePackage: Save=2.15ms
+[2017.10.24-00.30.29:814][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idleCB8BFE1047AB42B13637D1BC4C07F0DB.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset'
+[2017.10.24-00.30.29:817][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset
+[2017.10.24-00.30.29:821][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_idle" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset" SILENT=true
+[2017.10.24-00.30.29:827][ 70]LogSavePackage: Save=2.60ms
+[2017.10.24-00.30.29:827][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idleDB798A43474210B6F6D61E8E193FB76F.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset'
+[2017.10.24-00.30.29:829][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset
+[2017.10.24-00.30.29:832][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_idle" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset" SILENT=true
+[2017.10.24-00.30.29:839][ 70]LogSavePackage: Save=2.59ms
+[2017.10.24-00.30.29:839][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idleD80507034AD15EEC000DBB9BBB1918D6.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset'
+[2017.10.24-00.30.29:842][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset
+[2017.10.24-00.30.29:846][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_idle" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset" SILENT=true
+[2017.10.24-00.30.29:852][ 70]LogSavePackage: Save=2.00ms
+[2017.10.24-00.30.29:852][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idle8E4D34344C45FD6019BA3AA973D737F6.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset'
+[2017.10.24-00.30.29:856][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset
+[2017.10.24-00.30.29:859][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_idle" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset" SILENT=true
+[2017.10.24-00.30.29:865][ 70]LogSavePackage: Save=2.07ms
+[2017.10.24-00.30.29:865][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idle9AB22DA94BD97D41E2BB868B39BC3701.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset'
+[2017.10.24-00.30.29:868][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset
+[2017.10.24-00.30.29:872][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_idle" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset" SILENT=true
+[2017.10.24-00.30.29:878][ 70]LogSavePackage: Save=2.61ms
+[2017.10.24-00.30.29:878][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_idleECCA6D544AFC0E644A90CE85250FF233.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset'
+[2017.10.24-00.30.29:881][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_idle.uasset
+[2017.10.24-00.30.29:894][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_jump" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset" SILENT=true
+[2017.10.24-00.30.29:905][ 70]LogSavePackage: Save=5.33ms
+[2017.10.24-00.30.29:905][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jumpEC6F2EED4DB636EC4FAE82A3E22794D0.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset'
+[2017.10.24-00.30.29:907][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset
+[2017.10.24-00.30.29:911][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_jump" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset" SILENT=true
+[2017.10.24-00.30.29:918][ 70]LogSavePackage: Save=2.27ms
+[2017.10.24-00.30.29:918][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump6058F5554BBB0F6135E683A0819E7780.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset'
+[2017.10.24-00.30.29:921][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset
+[2017.10.24-00.30.29:925][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_jump" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset" SILENT=true
+[2017.10.24-00.30.29:932][ 70]LogSavePackage: Save=2.10ms
+[2017.10.24-00.30.29:932][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump513AD29C466797D014D6D89B05A70147.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset'
+[2017.10.24-00.30.29:935][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset
+[2017.10.24-00.30.29:939][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_jump" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset" SILENT=true
+[2017.10.24-00.30.29:945][ 70]LogSavePackage: Save=2.21ms
+[2017.10.24-00.30.29:945][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump0139E1834E7214594C580FBBA893C965.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset'
+[2017.10.24-00.30.29:949][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset
+[2017.10.24-00.30.29:952][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_jump" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset" SILENT=true
+[2017.10.24-00.30.29:960][ 70]LogSavePackage: Save=2.81ms
+[2017.10.24-00.30.29:960][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump16B13ADB41E0B682249DB8A568EC7E88.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset'
+[2017.10.24-00.30.29:964][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset
+[2017.10.24-00.30.29:968][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_jump" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset" SILENT=true
+[2017.10.24-00.30.29:976][ 70]LogSavePackage: Save=2.63ms
+[2017.10.24-00.30.29:976][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump15F93B7448140DE46498429D573C2C6A.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset'
+[2017.10.24-00.30.29:979][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset
+[2017.10.24-00.30.29:983][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_jump" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset" SILENT=true
+[2017.10.24-00.30.29:989][ 70]LogSavePackage: Save=2.10ms
+[2017.10.24-00.30.29:989][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jumpB442535E460E124D218C7799EC496FAD.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset'
+[2017.10.24-00.30.29:993][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset
+[2017.10.24-00.30.29:996][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_jump" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset" SILENT=true
+[2017.10.24-00.30.30:003][ 70]LogSavePackage: Save=2.08ms
+[2017.10.24-00.30.30:003][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jumpD87306C745C5A06E2D548CAF042D2BD6.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset'
+[2017.10.24-00.30.30:005][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset
+[2017.10.24-00.30.30:009][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_jump" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset" SILENT=true
+[2017.10.24-00.30.30:016][ 70]LogSavePackage: Save=2.10ms
+[2017.10.24-00.30.30:016][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump79B73ACD434B494E66941EBA6ED4A316.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset'
+[2017.10.24-00.30.30:019][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset
+[2017.10.24-00.30.30:023][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_jump" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset" SILENT=true
+[2017.10.24-00.30.30:030][ 70]LogSavePackage: Save=2.14ms
+[2017.10.24-00.30.30:030][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump3D769149478ACE7FA5E33DB27A470995.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset'
+[2017.10.24-00.30.30:032][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset
+[2017.10.24-00.30.30:035][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_jump" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset" SILENT=true
+[2017.10.24-00.30.30:041][ 70]LogSavePackage: Save=2.28ms
+[2017.10.24-00.30.30:041][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jumpDE7524AE45FA0AD82587339F6063C751.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset'
+[2017.10.24-00.30.30:045][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset
+[2017.10.24-00.30.30:049][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_jump" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset" SILENT=true
+[2017.10.24-00.30.30:056][ 70]LogSavePackage: Save=2.64ms
+[2017.10.24-00.30.30:057][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jumpCBCC65074ADF77CD97483E9D7945C0EC.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset'
+[2017.10.24-00.30.30:060][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset
+[2017.10.24-00.30.30:064][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_jump" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset" SILENT=true
+[2017.10.24-00.30.30:071][ 70]LogSavePackage: Save=2.15ms
+[2017.10.24-00.30.30:071][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump98B4446D4D3757CB2F4200AF40383B18.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset'
+[2017.10.24-00.30.30:074][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset
+[2017.10.24-00.30.30:079][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_jump" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset" SILENT=true
+[2017.10.24-00.30.30:086][ 70]LogSavePackage: Save=2.42ms
+[2017.10.24-00.30.30:086][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_jump385F164D464D75E8C04150A29EAA5268.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset'
+[2017.10.24-00.30.30:089][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_jump.uasset
+[2017.10.24-00.30.30:102][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_tackle" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset" SILENT=true
+[2017.10.24-00.30.30:113][ 70]LogSavePackage: Save=5.63ms
+[2017.10.24-00.30.30:113][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_tackle9C58EB3D4183B04D8F24BA8E1FC61486.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset'
+[2017.10.24-00.30.30:116][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset
+[2017.10.24-00.30.30:119][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_tackle" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset" SILENT=true
+[2017.10.24-00.30.30:125][ 70]LogSavePackage: Save=1.91ms
+[2017.10.24-00.30.30:125][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_tackle6A51B9464F5FD846F7297B85D9627624.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset'
+[2017.10.24-00.30.30:129][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset
+[2017.10.24-00.30.30:133][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_tackle" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset" SILENT=true
+[2017.10.24-00.30.30:140][ 70]LogSavePackage: Save=1.99ms
+[2017.10.24-00.30.30:140][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_tackle02DB1C944DEAE26B21483B9BEFADF49E.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset'
+[2017.10.24-00.30.30:143][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset
+[2017.10.24-00.30.30:146][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_tackle" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset" SILENT=true
+[2017.10.24-00.30.30:152][ 70]LogSavePackage: Save=1.83ms
+[2017.10.24-00.30.30:152][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_tackle5C20F97E45C6A5D533928DB795E6E690.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset'
+[2017.10.24-00.30.30:156][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset
+[2017.10.24-00.30.30:160][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_tackle" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset" SILENT=true
+[2017.10.24-00.30.30:166][ 70]LogSavePackage: Save=1.89ms
+[2017.10.24-00.30.30:166][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_tackle6E91A4F54440935577A1679D834D4E4F.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset'
+[2017.10.24-00.30.30:169][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset
+[2017.10.24-00.30.30:173][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_tackle" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset" SILENT=true
+[2017.10.24-00.30.30:181][ 70]LogSavePackage: Save=2.63ms
+[2017.10.24-00.30.30:181][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_tackle71B5463047B4B536EE3C06BF55A690FB.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset'
+[2017.10.24-00.30.30:184][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset
+[2017.10.24-00.30.30:188][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_tackle" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset" SILENT=true
+[2017.10.24-00.30.30:195][ 70]LogSavePackage: Save=2.33ms
+[2017.10.24-00.30.30:195][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_tackleEDBF901C4F70146CF475E69A940AF08F.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset'
+[2017.10.24-00.30.30:198][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset
+[2017.10.24-00.30.30:202][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_tackle" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset" SILENT=true
+[2017.10.24-00.30.30:208][ 70]LogSavePackage: Save=2.09ms
+[2017.10.24-00.30.30:208][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_tackle6AB0F1DC46B13025D194ECB55AB2721A.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset'
+[2017.10.24-00.30.30:211][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_tackle.uasset
+[2017.10.24-00.30.30:224][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_walk" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset" SILENT=true
+[2017.10.24-00.30.30:236][ 70]LogSavePackage: Save=5.69ms
+[2017.10.24-00.30.30:236][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_walkD6090991480B95BF6DC47C8F89717972.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset'
+[2017.10.24-00.30.30:238][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset
+[2017.10.24-00.30.30:243][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_walk" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset" SILENT=true
+[2017.10.24-00.30.30:249][ 70]LogSavePackage: Save=1.84ms
+[2017.10.24-00.30.30:249][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_walk42D3407141E4AB6DEE9CDBA76777C95A.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset'
+[2017.10.24-00.30.30:252][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset
+[2017.10.24-00.30.30:256][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_walk" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset" SILENT=true
+[2017.10.24-00.30.30:264][ 70]LogSavePackage: Save=1.95ms
+[2017.10.24-00.30.30:264][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_walk5F7EDD8848395588C077B48C54C95DDF.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset'
+[2017.10.24-00.30.30:267][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset
+[2017.10.24-00.30.30:271][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_walk" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset" SILENT=true
+[2017.10.24-00.30.30:277][ 70]LogSavePackage: Save=2.27ms
+[2017.10.24-00.30.30:277][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_walk3E87860948335D03CA287B9CE2A7C7C3.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset'
+[2017.10.24-00.30.30:281][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset
+[2017.10.24-00.30.30:284][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_walk" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset" SILENT=true
+[2017.10.24-00.30.30:291][ 70]LogSavePackage: Save=2.00ms
+[2017.10.24-00.30.30:292][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_walkA446702C472D21BA3902BF83DF2618D0.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset'
+[2017.10.24-00.30.30:294][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset
+[2017.10.24-00.30.30:297][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_walk" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset" SILENT=true
+[2017.10.24-00.30.30:305][ 70]LogSavePackage: Save=2.54ms
+[2017.10.24-00.30.30:305][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_walk503A1A9D47E1314A2743C38363E2C34E.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset'
+[2017.10.24-00.30.30:309][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset
+[2017.10.24-00.30.30:313][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/animations/bh_walk" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset" SILENT=true
+[2017.10.24-00.30.30:320][ 70]LogSavePackage: Save=2.35ms
+[2017.10.24-00.30.30:320][ 70]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/bh_walk329E35044F152C218577A0B017B2E93A.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset'
+[2017.10.24-00.30.30:324][ 70]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/animations/bh_walk.uasset
+[2017.10.24-00.30.55:650][688]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Ethan\Pictures\Sprites\flare blitz sprites\spr_blitz_iframe.png)
+[2017.10.24-00.30.55:660][688]LogTexture: Display: Building textures: spr_blitz_iframe (AutoDXT, 32X32)
+[2017.10.24-00.31.24:078][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hamster_Bread/Sprites/bh/fb_cooldown" FILE="../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/fb_cooldown.uasset" SILENT=true
+[2017.10.24-00.31.24:084][578]LogSavePackage: Save=3.85ms
+[2017.10.24-00.31.24:084][578]LogSavePackage: Moving '../../../../GitHub/Flare_BlitzU/Saved/fb_cooldown75AA01CB408DCCD20955A0BDFDA5528B.tmp' to '../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/fb_cooldown.uasset'
+[2017.10.24-00.31.24:087][578]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Flare_BlitzU/Content/Hamster_Bread/Sprites/bh/fb_cooldown.uasset
